@@ -1,0 +1,39 @@
+﻿@model InternPostDto
+
+<div class="container" style="margin: 16px 0">
+	<form method="post" enctype="multipart/form-data">
+		<div class="text text-danger" asp-validation-summary="ModelOnly"></div>
+	<div class="form-group">
+		    <label asp-for="Name" >Name:</label>
+			<input class="form-control" asp-for="Name" />
+			<span asp-validation-for="Name" class="text text-danger"></span>
+	</div>
+		<div class="form-group">
+			<label asp-for="Surname">Surname:</label>
+			<input class="form-control" asp-for="Surname" />
+			<span asp-validation-for="Surname" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="BirthYear">BirthYear:</label>
+			<input class="form-control" asp-for="BirthYear" />
+			<span asp-validation-for="BirthYear" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="AppUserId">User:</label>
+			<select asp-for="AppUserId" class="form-select" aria-label="Default select example">
+				@foreach (var item in ViewBag.Users)
+				{
+					<option value="@item.Id">@item.UserName</option>
+				}
+			</select>
+			<span asp-validation-for="AppUserId" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="@Model.Image">Image:</label>
+			<input type="file" class="form-control" asp-for="@Model.Image" />
+			<span asp-validation-for="Image" class="text text-danger"></span>
+		</div>
+			@Html.AntiForgeryToken()
+		<button type="submit" style="width: 180px; margin-top: 16px;" class="btn btn-success btn-rounded">Create</button>
+	</form>
+</div>

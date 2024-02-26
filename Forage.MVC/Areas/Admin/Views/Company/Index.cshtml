@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Company>
+<div class="container">
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name:</th>
+                <th scope="col">Field:</th>
+                <th scope="col">Logo:</th>
+                <th scope="col">Create Date:</th>
+                <th scope="col">Detail</th>
+                <th scope="col">Update</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <th>@item.Name</th>
+                    <th>@item.CompanyIndustryField.Name</th>
+                    <td><img src="~/Images/Companies/@item.Logo" width="100px" style="object-fit: contain;" height="100px"></td>
+                    <th>@item.CreatedAt.ToShortDateString()</th>
+                    <td>
+                        <a asp-controller="Company" asp-action="detail" asp-route-id="@item.Id">
+                            <i class="fas fa-info-circle text text-primary"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-controller="Company" asp-action="update" asp-route-id="@item.Id">
+                            <i class="fas fa-edit text text-primary"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a onclick="if(!confirm('Are you sure?')){return false;}"
+                           asp-controller="Company" asp-action="remove" asp-route-id="@item.Id"
+                           class=" delete-item"><i class="fas fa-trash text text-danger"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-area="admin" asp-controller="Company" asp-action="create"><button type="button" class="btn btn-primary btn-lg btn-block"> Create Company </button></a>
+    <a asp-area="admin" asp-controller="Company" asp-action="register"><button type="button" class="btn btn-secondary btn-lg btn-block"> Register New User </button></a>
+</div>

@@ -1,0 +1,34 @@
+﻿@model InternUpdateDto
+
+<div class="container" style="margin: 16px 0;">
+	<form method="post" enctype="multipart/form-data">
+		<div class="text text-danger" asp-validation-summary="ModelOnly"></div>
+		<div class="form-group">
+			<label asp-for="Name">Name:</label>
+			<input class="form-control" asp-for="Name" />
+			<span asp-validation-for="Name" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="Surname">Surname:</label>
+			<input class="form-control" asp-for="Surname" />
+			<span asp-validation-for="Surname" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="BirthYear">BirthYear:</label>
+			<input class="form-control" asp-for="BirthYear" />
+			<span asp-validation-for="BirthYear" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="AppUserId">User:</label>
+			<input  class="form-control" asp-for="AppUserId" />
+			<span asp-validation-for="AppUserId" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="@Model.file">Image:</label>
+			<input type="file" class="form-control" asp-for="@Model.file" />
+			<span asp-validation-for="file" class="text text-danger"></span>
+		</div>
+		@Html.AntiForgeryToken()
+		<button type="submit" style="width: 180px; margin-top: 16px;" class="btn btn-success btn-rounded">Update</button>
+	</form>
+</div>

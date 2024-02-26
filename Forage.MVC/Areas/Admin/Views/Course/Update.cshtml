@@ -1,0 +1,106 @@
+﻿@model CourseUpdateDto
+
+<div class="container" style="margin: 16px 0;">
+	<div class="alert alert-danger" asp-validation-summary="ModelOnly"></div>
+	<form method="post" enctype="multipart/form-data" style="display: flex; flex-direction: column; gap: 14px;">
+		<div class="form-group">
+			<label asp-for="Name">Name:</label>
+			<input class="form-control" asp-for="Name" />
+			<span asp-validation-for="Name" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="CourseDuration">CourseDuration:</label>
+			<input class="form-control" asp-for="CourseDuration" />
+			<span asp-validation-for="CourseDuration" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="About">About:</label>
+			<textarea class="form-control" asp-for="About"></textarea>
+			<span asp-validation-for="About" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="CompanyId">Company</label>
+			<select asp-for="CompanyId" class="form-select" aria-label="Default select example">
+				@foreach (var item in ViewBag.Companies)
+				{
+					<option value="@item.Id">@item.Name</option>
+				}
+			</select>
+			<span asp-validation-for="CompanyId" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="CourseCategoryId">Category</label>
+			<select asp-for="CourseCategoryId" class="form-select" aria-label="Default select example">
+				@foreach (var item in ViewBag.CourseCategories)
+				{
+					<option value="@item.Id">@item.Name</option>
+				}
+			</select>
+			<span asp-validation-for="CourseCategoryId" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="CourseLevelId">Level</label>
+			<select asp-for="CourseLevelId" class="form-select" aria-label="Default select example">
+				@foreach (var item in ViewBag.CourseLevels)
+				{
+					<option value="@item.Id">@item.Name</option>
+				}
+			</select>
+			<span asp-validation-for="CourseLevelId" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="Language">Language:</label>
+			<textarea class="form-control" asp-for="Language"></textarea>
+			<span asp-validation-for="Language" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="ShortInfo">ShortInfo:</label>
+			<textarea class="form-control" asp-for="ShortInfo"></textarea>
+			<span asp-validation-for="ShortInfo" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="IsActive">IsActive:</label>
+			<select asp-for="IsActive">
+				<option value="true" selected="selected">Yes</option>
+				<option value="false">No</option>
+			</select>
+			<span asp-validation-for="IsActive" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="@Model.file">Image:</label>
+			<input type="file" class="form-control" asp-for="@Model.file" />
+			<span asp-validation-for="file" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="@Model.video">Video:</label>
+			<input type="file" class="form-control" asp-for="@Model.video" />
+			<span asp-validation-for="video" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="SkillIds">Skills</label>
+			<select multiple asp-for="SkillIds" class="form-select" aria-label="Default select example">
+				@foreach (var item in ViewBag.Skills)
+				{
+					if (Model.SkillIds is not null)
+					{
+						if (Model.CourseSkills.Any(x => x.SkillId == item.Id))
+						{
+							<option selected value="@item.Id">@item.Name</option>
+						}
+						else
+						{
+							<option value="@item.Id">@item.Name</option>
+						}
+					}
+					else
+					{
+						<option value="@item.Id">@item.Name</option>
+					}
+				}
+			</select>
+			<span asp-validation-for="SkillIds" class="text text-danger"></span>
+		</div>
+		@Html.AntiForgeryToken()
+		<button type="submit" style="width: 180px;" class="btn btn-success btn-rounded">Update</button>
+	</form>
+</div>

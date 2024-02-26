@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Partner>
+<div class="container">
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name:</th>
+                <th scope="col">Logo:</th>
+                <th scope="col">Created Time:</th>
+                <th scope="col">Update</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <th>@item.Name</th>
+                    <th><img style="width:100px;height:100px" src="~/Images/Partners/@item.Logo" /></th>
+                    <th>@item.CreatedAt.ToShortDateString()</th>
+                    <td>
+                        <a asp-controller="Partner" asp-action="update" asp-route-id="@item.Id">
+                            <i class="fas fa-edit text text-primary"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a onclick="if(!confirm('Are you sure?')){return false;}"
+                           asp-controller="Partner" asp-action="remove" asp-route-id="@item.Id"
+                           class=" delete-item"><i class="fas fa-trash text text-danger"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-area="admin" asp-controller="Partner" asp-action="create"><button type="button" class="btn btn-primary btn-lg btn-block"> Create Partner </button></a>
+</div>

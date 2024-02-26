@@ -1,0 +1,52 @@
+﻿@model Company
+
+<div class="container" style="margin: 16px 0;">
+	<form method="post" enctype="multipart/form-data">
+		<div class="form-group">
+			<label asp-for="Name">Name:</label>
+			<input disabled class="form-control" asp-for="Name" />
+			<span asp-validation-for="Name" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="ActualAddress">Actual Address:</label>
+			<input disabled class="form-control" asp-for="ActualAddress" />
+			<span asp-validation-for="ActualAddress" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="LegalAddress">Legal Address:</label>
+			<input disabled class="form-control" asp-for="LegalAddress" />
+			<span asp-validation-for="LegalAddress" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="PhoneNumber">Phone Number:</label>
+			<input disabled class="form-control" asp-for="PhoneNumber" />
+			<span asp-validation-for="PhoneNumber" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="ContactPersonName">Contact Person Name:</label>
+			<input disabled class="form-control" asp-for="ContactPersonName" />
+			<span asp-validation-for="ContactPersonName" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="CompanyIndustryFieldId">Field:</label>
+			<input disabled class="form-control"  value="@Model.CompanyIndustryField.Name" />
+			<span asp-validation-for="CompanyIndustryFieldId" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label>UserName:</label>
+			<input disabled class="form-control" value="@Model.AppUser.UserName" />
+			<span class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label>Email:</label>
+			<input disabled class="form-control" value="@Model.AppUser.Email" />
+			<span class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label>Logo:</label>
+			<img style="width:200px;height:200px;" disabled class="form-control" src="~/Images/Companies/@Model.Logo" />
+		</div>
+		<button asp-controller="Company" asp-action="index" style="width: 180px; margin-top: 16px;" class="btn btn-success btn-rounded">Go Home</button>
+		@Html.AntiForgeryToken()
+	</form>
+</div>

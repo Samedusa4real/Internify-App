@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Setting>
+<div class="container">
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Phone 1:</th>
+                <th scope="col">Phone 2:</th>
+                <th scope="col">Email</th>
+                <th scope="col">Address</th>
+                <th scope="col">About Image</th>
+                <th scope="col">Logo</th>
+                <th scope="col">Update</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <th>@item.Phone1</th>
+                    <th>@item.Phone2</th>
+                    <th>@item.Email</th>
+                    <th>@item.Address</th>
+                    <th><img style="width:100px;height:100px" src="~/Images/Settings/@item.AboutImage" /></th>
+                    <th><img style="width:100px;height:100px" src="~/Images/Settings/@item.Logo" /></th>
+                    <td>
+                        <a asp-controller="Setting" asp-action="update" asp-route-id="@item.Id">
+                            <i class="fas fa-edit text text-primary"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

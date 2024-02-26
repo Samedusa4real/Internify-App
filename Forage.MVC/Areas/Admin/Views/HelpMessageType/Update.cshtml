@@ -1,0 +1,13 @@
+﻿@model HelpMessageTypeUpdateDto
+
+<div class="container">
+	<form method="post" enctype="multipart/form-data">
+		<div class="form-group">
+			<label asp-for="Title">Title:</label>
+			<input class="form-control" asp-for="Title" />
+			<span asp-validation-for="Title" class="text text-danger"></span>
+		</div>
+		@Html.AntiForgeryToken()
+		<button type="submit">Update</button>
+	</form>
+</div>
