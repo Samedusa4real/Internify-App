@@ -58,32 +58,32 @@ namespace Forage.App.Controllers
             var response = await _identityService.Login(dto, 30);
             return Ok(response);
         }
-        //[HttpPost]
-        //public async Task<IActionResult> AddRole()
-        //{
-        //    IdentityRole role = new IdentityRole
-        //    {
-        //        Name = "Intern"
-        //    };
-        //    IdentityRole role1 = new IdentityRole
-        //    {
-        //        Name = "Company"
-        //    };
-        //    IdentityRole role2 = new IdentityRole
-        //    {
-        //        Name = "Admin"
-        //    };
-        //    IdentityRole role3 = new IdentityRole
-        //    {
-        //        Name = "SuperAdmin"
-        //    };
-        //    await _roleManager.CreateAsync(role);
-        //    await _roleManager.CreateAsync(role1);
-        //    await _roleManager.CreateAsync(role2);
-        //    await _roleManager.CreateAsync(role3);
+        [HttpPost]
+        public async Task<IActionResult> AddRole()
+        {
+            IdentityRole role = new IdentityRole
+            {
+                Name = "Intern"
+            };
+            IdentityRole role1 = new IdentityRole
+            {
+                Name = "Company"
+            };
+            IdentityRole role2 = new IdentityRole
+            {
+                Name = "Admin"
+            };
+            IdentityRole role3 = new IdentityRole
+            {
+                Name = "SuperAdmin"
+            };
+            await _roleManager.CreateAsync(role);
+            await _roleManager.CreateAsync(role1);
+            await _roleManager.CreateAsync(role2);
+            await _roleManager.CreateAsync(role3);
 
-        //    return Ok("Good");
-        //}
+            return Ok("Good");
+        }
 
         //[HttpPost("google-login")]
         //public async Task<IActionResult> GoogleLogin([FromBody] GoogleLoginDto googleLoginDto)
