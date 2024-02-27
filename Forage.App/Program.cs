@@ -5,11 +5,17 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System.Text.Json.Serialization;
 using Forage.Service;
+using Forage.Data.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.Register(builder.Configuration);
 builder.Services.AddScope(builder.Configuration);
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddDbContext<ForageAppDbContext>(opt =>
+{
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
+});
 
 builder.Services.AddCors(o => o.AddPolicy("Forage", builder =>
 {

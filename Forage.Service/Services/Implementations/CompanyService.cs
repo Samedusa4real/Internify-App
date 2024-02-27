@@ -65,8 +65,13 @@ namespace Forage.Service.Services.Implementations
                 StatusCode = 200
             };
         }
-		
-	    public async Task<ApiResponse> GetDetailAsync(int id)
+
+        public async Task<bool> CompanyExistsByName(string companyName)
+        {
+            return await _repository.isExsist(x => x.Name == companyName && !x.IsDeleted);
+        }
+
+        public async Task<ApiResponse> GetDetailAsync(int id)
 		{
 			Company? Company = await _repository.GetAsync(x => x.Id == id && !x.IsDeleted, "CompanyIndustryField", "AppUser", "Courses");
 			if (Company == null)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.Core\\Forage.Core.csproj": {}
+    "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.Core\\Forage.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.Core\\Forage.Core.csproj": {
+    "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.Core\\Forage.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.Core\\Forage.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.Core\\Forage.Core.csproj",
         "projectName": "Forage.Core",
-        "projectPath": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.Core\\Forage.Core.csproj",
+        "projectPath": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.Core\\Forage.Core.csproj",
         "packagesPath": "C:\\Users\\Samedusa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.Core\\obj\\",
+        "outputPath": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Samedusa\\AppData\\Roaming\\NuGet\\NuGet.Config",

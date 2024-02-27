@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YYaP3aDumdPrqsED0Yc/its/rqhaDt2Md7rPlXL84JQ92gStT/lmzvUPh0GnyPPXx2g4BkyhyKZDLSck2zN7OQ==",
+  "dgSpecHash": "kB/LlEak9wr01Z/BGI2Hpiiq4+dq5u8HwLtr8q0h6ix6HSQGr/gakeFj3Efz+GC/NfAZbkmHqvYttJwO0q4nIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.Service\\Forage.Service.csproj",
+  "projectFilePath": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.Service\\Forage.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Samedusa\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Samedusa\\.nuget\\packages\\automapper.collection\\9.0.0\\automapper.collection.9.0.0.nupkg.sha512",

@@ -1,0 +1,17 @@
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\bin\Release\net6.0\Forage.Data.deps.json
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\bin\Release\net6.0\Forage.Data.runtimeconfig.json
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\bin\Release\net6.0\Forage.Data.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\bin\Release\net6.0\Forage.Data.pdb
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\bin\Release\net6.0\Forage.Core.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\bin\Release\net6.0\Forage.Core.pdb
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\obj\Release\net6.0\Forage.Data.csproj.AssemblyReference.cache
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\obj\Release\net6.0\Forage.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\obj\Release\net6.0\Forage.Data.AssemblyInfoInputs.cache
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\obj\Release\net6.0\Forage.Data.AssemblyInfo.cs
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\obj\Release\net6.0\Forage.Data.csproj.CoreCompileInputs.cache
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\obj\Release\net6.0\Forage.Data.csproj.CopyComplete
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\obj\Release\net6.0\Forage.Data.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\obj\Release\net6.0\refint\Forage.Data.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\obj\Release\net6.0\Forage.Data.pdb
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\obj\Release\net6.0\Forage.Data.genruntimeconfig.cache
+C:\Users\Samedusa\Desktop\Internify-App\Forage.Data\obj\Release\net6.0\ref\Forage.Data.dll

@@ -33,9 +33,9 @@ namespace Forage.Service.Services.Implementations
         readonly IAuthService _authService;
         readonly RoleManager<IdentityRole> RoleManager;
         readonly IHttpContextAccessor _http;
-
+        private readonly ICompanyService _companyService;
         readonly IConfiguration _configuration;
-        public IdentityUserService(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ITokenHandler tokenHandler, IAuthService authService, IConfiguration configuration, RoleManager<IdentityRole> roleManager, IHttpContextAccessor http)
+        public IdentityUserService(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ITokenHandler tokenHandler, IAuthService authService, IConfiguration configuration, RoleManager<IdentityRole> roleManager, IHttpContextAccessor http, ICompanyService companyService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -44,6 +44,7 @@ namespace Forage.Service.Services.Implementations
             _configuration = configuration;
             RoleManager = roleManager;
             _http = http;
+            _companyService = companyService;
         }
 
 
@@ -88,7 +89,7 @@ namespace Forage.Service.Services.Implementations
             return new BaseReponse { StatusCode = 403 };
         }
      
-        public async Task<BaseReponse> Register(RegisterDto registerDto, string role)
+        public async Task<BaseReponse> Register(RegisterPartnerDto registerDto, string role)
         {
             var user = await _userManager.FindByEmailAsync(registerDto.Email);
             if (user is not null)
@@ -99,6 +100,17 @@ namespace Forage.Service.Services.Implementations
                     Message = "This User Already exists"
                 };
             }
+
+            var companyExists = await _companyService.CompanyExistsByName(registerDto.CompanyName);
+            if (companyExists)
+            {
+                return new BaseReponse
+                {
+                    StatusCode = 400,
+                    Message = "This Company Name is already registered."
+                };
+            }
+
 
             user = new AppUser()
             {
@@ -200,7 +212,7 @@ namespace Forage.Service.Services.Implementations
                 else
                 {
 
-                    var result = await Register(new RegisterDto
+                    var result = await Register(new RegisterPartnerDto
                     {
                         Email = email,
                         Username = jwtToken.Claims.First(c => c.Type == "given_name").Value,

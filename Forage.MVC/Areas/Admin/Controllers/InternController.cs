@@ -106,7 +106,7 @@ namespace Forage.MVC.Areas.Admin.Controllers
 		}
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public async Task<IActionResult> Register(RegisterDto dto)
+		public async Task<IActionResult> Register(RegisterPartnerDto dto)
 		{
 		
 			if (!ModelState.IsValid)

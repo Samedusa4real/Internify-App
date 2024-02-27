@@ -11225,11 +11225,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\Forage.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\Forage.MVC.csproj",
       "projectName": "Forage.MVC",
-      "projectPath": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\Forage.MVC.csproj",
+      "projectPath": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\Forage.MVC.csproj",
       "packagesPath": "C:\\Users\\Samedusa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\obj\\",
+      "outputPath": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Samedusa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11246,8 +11246,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.Service\\Forage.Service.csproj": {
-              "projectPath": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.Service\\Forage.Service.csproj"
+            "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.Service\\Forage.Service.csproj": {
+              "projectPath": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.Service\\Forage.Service.csproj"
             }
           }
         }

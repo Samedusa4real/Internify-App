@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oTDZ+w9QId6wrOahjOxG6dCi9IRJ8qZZvS/N6Ho7By8=",
+  "Hash": "ptk8VJIk/zMaHeGEiempnSy5mbcvG29TsfPed/vzDZE=",
   "Source": "Forage.MVC",
   "BasePath": "_content/Forage.MVC",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Forage.MVC\\wwwroot",
       "Source": "Forage.MVC",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\avatars\\1.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\avatars\\1.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/avatars/1.png",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\avatars\\1.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\avatars\\5.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\avatars\\5.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/avatars/5.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\avatars\\5.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\avatars\\6.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\avatars\\6.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/avatars/6.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\avatars\\6.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\avatars\\7.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\avatars\\7.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/avatars/7.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\avatars\\7.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\backgrounds\\18.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\backgrounds\\18.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/backgrounds/18.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\backgrounds\\18.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\1.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\1.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/elements/1.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\elements\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\11.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\11.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/elements/11.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\elements\\11.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\12.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\12.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/elements/12.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\elements\\12.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\13.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\13.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/elements/13.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\elements\\13.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\17.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\17.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/elements/17.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\elements\\17.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\18.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\18.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/elements/18.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\elements\\18.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\19.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\19.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/elements/19.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\elements\\19.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\2.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\2.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/elements/2.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\elements\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\20.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\20.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/elements/20.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\elements\\20.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\3.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\3.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/elements/3.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\elements\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\4.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\4.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/elements/4.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\elements\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\5.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\5.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/elements/5.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\elements\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\7.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\elements\\7.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/elements/7.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\elements\\7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\favicon\\favicon.ico",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\favicon\\favicon.ico",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/favicon/favicon.ico",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\favicon\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\asana.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\asana.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/brands/asana.png",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\brands\\asana.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\behance.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\behance.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/brands/behance.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\brands\\behance.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\dribbble.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\dribbble.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/brands/dribbble.png",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\brands\\dribbble.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\facebook.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\facebook.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/brands/facebook.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\brands\\facebook.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\github.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\github.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/brands/github.png",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\brands\\github.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\google.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\google.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/brands/google.png",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\brands\\google.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\instagram.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\instagram.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/brands/instagram.png",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\brands\\instagram.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\mailchimp.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\mailchimp.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/brands/mailchimp.png",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\brands\\mailchimp.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\slack.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\slack.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/brands/slack.png",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\brands\\slack.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\twitter.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\twitter.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/brands/twitter.png",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\brands\\twitter.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-primary.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/unicons/cc-primary.png",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-primary.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-success.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-success.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/unicons/cc-success.png",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-success.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-warning.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/unicons/cc-warning.png",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-warning.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\chart.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\chart.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/unicons/chart.png",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\unicons\\chart.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\chart-success.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\chart-success.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/unicons/chart-success.png",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\unicons\\chart-success.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\paypal.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\paypal.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/unicons/paypal.png",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\unicons\\paypal.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\wallet.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\wallet.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/unicons/wallet.png",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\unicons\\wallet.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\wallet-info.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/icons/unicons/wallet-info.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\icons\\unicons\\wallet-info.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/illustrations/girl-doing-yoga-light.png",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\illustrations\\man-with-laptop-light.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/illustrations/man-with-laptop-light.png",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\illustrations\\man-with-laptop-light.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\illustrations\\page-misc-error-light.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/illustrations/page-misc-error-light.png",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\illustrations\\page-misc-error-light.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\layouts\\layout-container-light.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\layouts\\layout-container-light.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/layouts/layout-container-light.png",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\layouts\\layout-container-light.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\layouts\\layout-fluid-light.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\layouts\\layout-fluid-light.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/layouts/layout-fluid-light.png",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\layouts\\layout-fluid-light.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\layouts\\layout-without-menu-light.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/layouts/layout-without-menu-light.png",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\layouts\\layout-without-menu-light.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\img\\layouts\\layout-without-navbar-light.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/img/layouts/layout-without-navbar-light.png",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\layouts\\layout-without-navbar-light.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\Inherent\\7065287_page-0001 1.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\Inherent\\7065287_page-0001 1.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/Inherent/7065287_page-0001 1.png",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\Inherent\\7065287_page-0001 1.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\js\\config.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\js\\config.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/js/config.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\config.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\js\\dashboards-analytics.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\js\\dashboards-analytics.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/js/dashboards-analytics.js",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\dashboards-analytics.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\js\\extended-ui-perfect-scrollbar.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/js/extended-ui-perfect-scrollbar.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\extended-ui-perfect-scrollbar.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\js\\form-basic-inputs.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\js\\form-basic-inputs.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/js/form-basic-inputs.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\form-basic-inputs.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\js\\main.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\js\\main.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/js/main.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\js\\pages-account-settings-account.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\js\\pages-account-settings-account.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/js/pages-account-settings-account.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\pages-account-settings-account.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\js\\ui-modals.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\js\\ui-modals.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/js/ui-modals.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\ui-modals.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\js\\ui-popover.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\js\\ui-popover.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/js/ui-popover.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\ui-popover.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\js\\ui-toasts.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\js\\ui-toasts.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/js/ui-toasts.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\ui-toasts.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\.DS_Store",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\.DS_Store",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/.DS_Store",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\charts\\.DS_Store",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\charts\\.DS_Store",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/charts/.DS_Store",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\charts\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\charts\\chartjs.html",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\charts\\chartjs.html",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/charts/chartjs.html",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\charts\\chartjs.html"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\forms\\.DS_Store",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\forms\\.DS_Store",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/forms/.DS_Store",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\forms\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\forms\\basic_elements.html",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\forms\\basic_elements.html",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/forms/basic_elements.html",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\forms\\basic_elements.html"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\icons\\.DS_Store",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\icons\\.DS_Store",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/icons/.DS_Store",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\icons\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\icons\\mdi.html",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\icons\\mdi.html",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/icons/mdi.html",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\icons\\mdi.html"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\samples\\.DS_Store",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\samples\\.DS_Store",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/samples/.DS_Store",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\samples\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\samples\\lock-screen.html",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\samples\\lock-screen.html",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/samples/lock-screen.html",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\samples\\lock-screen.html"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\samples\\login.html",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\samples\\login.html",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/samples/login.html",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\samples\\login.html"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\samples\\login-2.html",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\samples\\login-2.html",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/samples/login-2.html",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\samples\\login-2.html"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\samples\\register.html",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\samples\\register.html",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/samples/register.html",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\samples\\register.html"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\samples\\register-2.html",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\samples\\register-2.html",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/samples/register-2.html",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\samples\\register-2.html"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\tables\\.DS_Store",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\tables\\.DS_Store",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/tables/.DS_Store",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\tables\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\tables\\basic-table.html",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\tables\\basic-table.html",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/tables/basic-table.html",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\tables\\basic-table.html"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\ui-features\\.DS_Store",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\ui-features\\.DS_Store",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/ui-features/.DS_Store",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\ui-features\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\ui-features\\buttons.html",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\ui-features\\buttons.html",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/ui-features/buttons.html",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\ui-features\\buttons.html"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\ui-features\\typography.html",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\pages\\ui-features\\typography.html",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/pages/ui-features/typography.html",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\pages\\ui-features\\typography.html"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\css\\core.css",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\css\\core.css",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/css/core.css",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\css\\core.css"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\css\\demo.css",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\css\\demo.css",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/css/demo.css",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\css\\demo.css"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-account-settings.css",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/css/pages/page-account-settings.css",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\css\\pages\\page-account-settings.css"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-auth.css",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-auth.css",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/css/pages/page-auth.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\css\\pages\\page-auth.css"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-icons.css",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-icons.css",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/css/pages/page-icons.css",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\css\\pages\\page-icons.css"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-misc.css",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-misc.css",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/css/pages/page-misc.css",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\css\\pages\\page-misc.css"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\css\\theme-default.css",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\css\\theme-default.css",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/css/theme-default.css",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\css\\theme-default.css"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons.css",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons.css",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/fonts/boxicons.css",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\fonts\\boxicons.css"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/fonts/boxicons/boxicons.eot",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/fonts/boxicons/boxicons.svg",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/fonts/boxicons/boxicons.ttf",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/fonts/boxicons/boxicons.woff",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/fonts/boxicons/boxicons.woff2",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\js\\bootstrap.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/js/bootstrap.js",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\js\\helpers.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\js\\helpers.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/js/helpers.js",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\js\\helpers.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\js\\menu.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\js\\menu.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/js/menu.js",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\js\\menu.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/libs/apex-charts/apex-charts.css",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/libs/apex-charts/apexcharts.js",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight.css",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/libs/highlight/highlight.css",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight.css"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/libs/highlight/highlight.js",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight-github.css",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/libs/highlight/highlight-github.css",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight-github.css"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\jquery\\jquery.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/libs/jquery/jquery.js",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\libs\\jquery\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\masonry\\masonry.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/libs/masonry/masonry.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\libs\\masonry\\masonry.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\popper\\popper.js",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\popper\\popper.js",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "admin/assets/vendor/libs/popper/popper.js",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendor\\libs\\popper\\popper.js"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Companies\\04528d43-6c14-441f-8019-3e5d189c66b3codeacademy.webp",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Companies\\04528d43-6c14-441f-8019-3e5d189c66b3codeacademy.webp",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Companies/04528d43-6c14-441f-8019-3e5d189c66b3codeacademy.webp",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Companies\\04528d43-6c14-441f-8019-3e5d189c66b3codeacademy.webp"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Companies\\441dabf8-6df6-4dfc-830e-77a7eb08ffcccodeacademy.webp",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Companies\\441dabf8-6df6-4dfc-830e-77a7eb08ffcccodeacademy.webp",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Companies/441dabf8-6df6-4dfc-830e-77a7eb08ffcccodeacademy.webp",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Companies\\441dabf8-6df6-4dfc-830e-77a7eb08ffcccodeacademy.webp"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Companies\\4bd7f784-97a8-48ca-b3d1-74aadd18e2cdit brain.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Companies\\4bd7f784-97a8-48ca-b3d1-74aadd18e2cdit brain.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Companies/4bd7f784-97a8-48ca-b3d1-74aadd18e2cdit brain.jpg",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Companies\\4bd7f784-97a8-48ca-b3d1-74aadd18e2cdit brain.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Companies\\5da22dec-e649-4238-8578-6d33aea90b35codeacademy.webp",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Companies\\5da22dec-e649-4238-8578-6d33aea90b35codeacademy.webp",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Companies/5da22dec-e649-4238-8578-6d33aea90b35codeacademy.webp",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Companies\\5da22dec-e649-4238-8578-6d33aea90b35codeacademy.webp"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Companies\\83dd6eef-ff15-49af-a94f-c6bb62bb4677codeacademy.webp",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Companies\\83dd6eef-ff15-49af-a94f-c6bb62bb4677codeacademy.webp",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Companies/83dd6eef-ff15-49af-a94f-c6bb62bb4677codeacademy.webp",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Companies\\83dd6eef-ff15-49af-a94f-c6bb62bb4677codeacademy.webp"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Courses\\12290aaf-f47e-4c16-89be-68b42bf3d8b1codeacademy.webp",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Courses\\12290aaf-f47e-4c16-89be-68b42bf3d8b1codeacademy.webp",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Courses/12290aaf-f47e-4c16-89be-68b42bf3d8b1codeacademy.webp",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Courses\\12290aaf-f47e-4c16-89be-68b42bf3d8b1codeacademy.webp"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Courses\\ace26187-4f64-42ea-bea1-191b606e5f5ccodeacademy.webp",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Courses\\ace26187-4f64-42ea-bea1-191b606e5f5ccodeacademy.webp",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Courses/ace26187-4f64-42ea-bea1-191b606e5f5ccodeacademy.webp",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Courses\\ace26187-4f64-42ea-bea1-191b606e5f5ccodeacademy.webp"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Courses\\c2ed6c10-cb44-49f6-9c6d-b2bab6fec21dcodeacademy.webp",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Courses\\c2ed6c10-cb44-49f6-9c6d-b2bab6fec21dcodeacademy.webp",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Courses/c2ed6c10-cb44-49f6-9c6d-b2bab6fec21dcodeacademy.webp",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Courses\\c2ed6c10-cb44-49f6-9c6d-b2bab6fec21dcodeacademy.webp"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Courses\\ce11e169-7bd1-45a9-acbb-303015920d7acodeacademy.webp",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Courses\\ce11e169-7bd1-45a9-acbb-303015920d7acodeacademy.webp",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Courses/ce11e169-7bd1-45a9-acbb-303015920d7acodeacademy.webp",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Courses\\ce11e169-7bd1-45a9-acbb-303015920d7acodeacademy.webp"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Inherent\\7065287_page-0001 1.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Inherent\\7065287_page-0001 1.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Inherent/7065287_page-0001 1.png",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Inherent\\7065287_page-0001 1.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Interns\\2be59518-9829-4f74-b05a-52854d57490dImg.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Interns\\2be59518-9829-4f74-b05a-52854d57490dImg.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Interns/2be59518-9829-4f74-b05a-52854d57490dImg.jpg",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Interns\\2be59518-9829-4f74-b05a-52854d57490dImg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Interns\\ad886aa7-c2b5-4958-b918-bdc18375918bImg.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Interns\\ad886aa7-c2b5-4958-b918-bdc18375918bImg.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Interns/ad886aa7-c2b5-4958-b918-bdc18375918bImg.jpg",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Interns\\ad886aa7-c2b5-4958-b918-bdc18375918bImg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Interns\\d0249076-b1b8-4042-acb7-a0109ce18cb3Img.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Interns\\d0249076-b1b8-4042-acb7-a0109ce18cb3Img.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Interns/d0249076-b1b8-4042-acb7-a0109ce18cb3Img.jpg",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Interns\\d0249076-b1b8-4042-acb7-a0109ce18cb3Img.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Interns\\f02675dd-a09e-4840-8fb0-a67735132da5IMG_6664.jpg",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Interns\\f02675dd-a09e-4840-8fb0-a67735132da5IMG_6664.jpg",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Interns/f02675dd-a09e-4840-8fb0-a67735132da5IMG_6664.jpg",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Interns\\f02675dd-a09e-4840-8fb0-a67735132da5IMG_6664.jpg"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Partners\\3c1876c8-000e-4134-8774-82a4438af9b9codeacademy.webp",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Partners\\3c1876c8-000e-4134-8774-82a4438af9b9codeacademy.webp",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Partners/3c1876c8-000e-4134-8774-82a4438af9b9codeacademy.webp",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Partners\\3c1876c8-000e-4134-8774-82a4438af9b9codeacademy.webp"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Partners\\5cb0fe4e-a533-4d89-870f-1b369976cc99coca.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Partners\\5cb0fe4e-a533-4d89-870f-1b369976cc99coca.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Partners/5cb0fe4e-a533-4d89-870f-1b369976cc99coca.png",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Partners\\5cb0fe4e-a533-4d89-870f-1b369976cc99coca.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Partners\\65e954ed-abce-4b13-97fe-e3ed45fc3aedredbull.png",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Partners\\65e954ed-abce-4b13-97fe-e3ed45fc3aedredbull.png",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Partners/65e954ed-abce-4b13-97fe-e3ed45fc3aedredbull.png",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Partners\\65e954ed-abce-4b13-97fe-e3ed45fc3aedredbull.png"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Partners\\8750be13-dc63-4d31-8d9d-3490fc3c49f3Forage.webp",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Partners\\8750be13-dc63-4d31-8d9d-3490fc3c49f3Forage.webp",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Partners/8750be13-dc63-4d31-8d9d-3490fc3c49f3Forage.webp",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Partners\\8750be13-dc63-4d31-8d9d-3490fc3c49f3Forage.webp"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Settings\\d8d2ae67-930e-443c-be14-c36b7d431e86codeacademy.webp",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Settings\\d8d2ae67-930e-443c-be14-c36b7d431e86codeacademy.webp",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Settings/d8d2ae67-930e-443c-be14-c36b7d431e86codeacademy.webp",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Settings\\d8d2ae67-930e-443c-be14-c36b7d431e86codeacademy.webp"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Images\\Settings\\e9832d76-7d9d-43bc-bb87-9fa4895afbd8codeacademy.webp",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Settings\\e9832d76-7d9d-43bc-bb87-9fa4895afbd8codeacademy.webp",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Images/Settings/e9832d76-7d9d-43bc-bb87-9fa4895afbd8codeacademy.webp",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Settings\\e9832d76-7d9d-43bc-bb87-9fa4895afbd8codeacademy.webp"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Videos\\CourseLessons\\37626547-51a4-4946-9178-b518461c267fMadrigal - Seni Dert Etmeler (Official Audio).mp4",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Videos\\CourseLessons\\37626547-51a4-4946-9178-b518461c267fMadrigal - Seni Dert Etmeler (Official Audio).mp4",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Videos/CourseLessons/37626547-51a4-4946-9178-b518461c267fMadrigal - Seni Dert Etmeler (Official Audio).mp4",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\Videos\\CourseLessons\\37626547-51a4-4946-9178-b518461c267fMadrigal - Seni Dert Etmeler (Official Audio).mp4"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Videos\\CourseLessons\\d7de74e7-8246-42d3-9159-46d6b9ee692fMadrigal - Seni Dert Etmeler (Official Audio).mp4",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Videos\\CourseLessons\\d7de74e7-8246-42d3-9159-46d6b9ee692fMadrigal - Seni Dert Etmeler (Official Audio).mp4",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Videos/CourseLessons/d7de74e7-8246-42d3-9159-46d6b9ee692fMadrigal - Seni Dert Etmeler (Official Audio).mp4",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\Videos\\CourseLessons\\d7de74e7-8246-42d3-9159-46d6b9ee692fMadrigal - Seni Dert Etmeler (Official Audio).mp4"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Videos\\Courses\\0439c468-ec10-4e3a-9feb-693f15fb3bbaMadrigal - Seni Dert Etmeler (Official Audio).mp4",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Videos\\Courses\\0439c468-ec10-4e3a-9feb-693f15fb3bbaMadrigal - Seni Dert Etmeler (Official Audio).mp4",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Videos/Courses/0439c468-ec10-4e3a-9feb-693f15fb3bbaMadrigal - Seni Dert Etmeler (Official Audio).mp4",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\Videos\\Courses\\0439c468-ec10-4e3a-9feb-693f15fb3bbaMadrigal - Seni Dert Etmeler (Official Audio).mp4"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Videos\\Courses\\4fe2442c-ef49-42bd-8e90-03be892fd6beMadrigal - Seni Dert Etmeler (Official Audio).mp4",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Videos\\Courses\\4fe2442c-ef49-42bd-8e90-03be892fd6beMadrigal - Seni Dert Etmeler (Official Audio).mp4",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Videos/Courses/4fe2442c-ef49-42bd-8e90-03be892fd6beMadrigal - Seni Dert Etmeler (Official Audio).mp4",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\Videos\\Courses\\4fe2442c-ef49-42bd-8e90-03be892fd6beMadrigal - Seni Dert Etmeler (Official Audio).mp4"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Videos\\Courses\\c198a0db-8d28-4199-9233-98c6d1cc1716Madrigal - Seni Dert Etmeler (Official Audio).mp4",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Videos\\Courses\\c198a0db-8d28-4199-9233-98c6d1cc1716Madrigal - Seni Dert Etmeler (Official Audio).mp4",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Videos/Courses/c198a0db-8d28-4199-9233-98c6d1cc1716Madrigal - Seni Dert Etmeler (Official Audio).mp4",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\Videos\\Courses\\c198a0db-8d28-4199-9233-98c6d1cc1716Madrigal - Seni Dert Etmeler (Official Audio).mp4"
     },
     {
-      "Identity": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\Videos\\Courses\\df419367-5024-40e1-b1f1-6a1847b05366Madrigal - Seni Dert Etmeler (Official Audio).mp4",
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Videos\\Courses\\df419367-5024-40e1-b1f1-6a1847b05366Madrigal - Seni Dert Etmeler (Official Audio).mp4",
       "SourceId": "Forage.MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\ForageApp\\Forage.MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
       "BasePath": "_content/Forage.MVC",
       "RelativePath": "Videos/Courses/df419367-5024-40e1-b1f1-6a1847b05366Madrigal - Seni Dert Etmeler (Official Audio).mp4",
       "AssetKind": "All",

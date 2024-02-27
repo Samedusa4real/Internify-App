@@ -16,5 +16,6 @@ namespace Forage.Service.Services.Interfaces
 		public Task<ApiResponse> GetAllAsync();
 		public Task<ApiResponse> UpdateAsync(int id, CompanyUpdateDto dto);
         public Task<ApiResponse> RemoveAsync(int id);
+        public Task<bool> CompanyExistsByName(string companyName);
     }
 }

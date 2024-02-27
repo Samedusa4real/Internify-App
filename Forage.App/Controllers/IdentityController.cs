@@ -29,7 +29,7 @@ namespace Forage.App.Controllers
 
         [HttpPost]
         [ActionName("Register")]
-        public async Task<IActionResult> Register(RegisterDto dto)
+        public async Task<IActionResult> Register(RegisterPartnerDto dto)
         {
             var response = await _identityService.Register(dto, dto.role);
             return Ok(response);

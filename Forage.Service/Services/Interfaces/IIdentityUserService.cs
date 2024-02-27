@@ -14,7 +14,7 @@ namespace Forage.Service.Services.Interfaces
     public interface IIdentityUserService
     {
         public Task<List<AllUserGetDto>> GetAllUsers();
-        public Task<BaseReponse> Register(RegisterDto registerDto, string role);
+        public Task<BaseReponse> Register(RegisterPartnerDto registerDto, string role);
 
         public Task<TokenResponseDto> Login(LoginDto loginDto, int accessTokenLifeTime, string role = null);
         public Task<ApiResponse> Login(LoginDto loginDto);
