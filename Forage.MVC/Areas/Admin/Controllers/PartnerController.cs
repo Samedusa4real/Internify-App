@@ -45,6 +45,7 @@ namespace Forage.MVC.Areas.Admin.Controllers
 				ModelState.AddModelError("", result.Description);
 				return View(dto);
 			}
+
 			return RedirectToAction(nameof(Index));
 		}
 		[HttpGet]

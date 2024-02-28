@@ -89,7 +89,7 @@ namespace Forage.Service.Services.Implementations
             return new BaseReponse { StatusCode = 403 };
         }
      
-        public async Task<BaseReponse> Register(RegisterPartnerDto registerDto, string role)
+        public async Task<BaseReponse> Register(RegisterPartnerDto registerDto, string? role)
         {
             var user = await _userManager.FindByEmailAsync(registerDto.Email);
             if (user is not null)
@@ -138,6 +138,57 @@ namespace Forage.Service.Services.Implementations
                 Message = "User Succesfully Registered"
             };
         }
+
+        public async Task<BaseReponse> RegisterForIntern(RegisterPartnerDto registerDto, string? role)
+        {
+            var user = await _userManager.FindByEmailAsync(registerDto.Email);
+            if (user is not null)
+            {
+                return new()
+                {
+                    StatusCode = 404,
+                    Message = "This User Already exists"
+                };
+            }
+
+            var companyExists = await _companyService.CompanyExistsByName(registerDto.CompanyName);
+            if (companyExists)
+            {
+                return new BaseReponse
+                {
+                    StatusCode = 400,
+                    Message = "This Company Name is already registered."
+                };
+            }
+
+            user = new AppUser()
+            {
+                Id = Guid.NewGuid().ToString(),
+                Email = registerDto.Email,
+                UserName = registerDto.Username,
+            };
+            IdentityResult result = await _userManager.CreateAsync(user, registerDto.Password);
+            if (!result.Succeeded)
+            {
+                foreach (var error in result.Errors)
+                {
+                    return new()
+                    {
+                        StatusCode = 404,
+                        Message = error.Description
+                    };
+                }
+            }
+            await _userManager.AddToRoleAsync(user, role);
+            user = await _userManager.FindByEmailAsync(registerDto.Email);
+            return new()
+            {
+                UserId = user.Id.ToString(),
+                StatusCode = (int)HttpStatusCode.OK,
+                Message = "User Succesfully Registered"
+            };
+        }
+
         public async Task<ApiResponse> Update(UpdateDto dto, AppUser? updated)
         {
             var user = await _userManager.FindByNameAsync(_http.HttpContext.User.Identity.Name);
