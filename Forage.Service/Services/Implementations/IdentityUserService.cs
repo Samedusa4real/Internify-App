@@ -111,7 +111,6 @@ namespace Forage.Service.Services.Implementations
                 };
             }
 
-
             user = new AppUser()
             {
                 Id = Guid.NewGuid().ToString(),

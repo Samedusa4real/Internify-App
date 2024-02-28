@@ -43,7 +43,7 @@ namespace Forage.Service.Validations.Accounts
                 {
                     if (x.PhoneNumber != null)
                     {
-                        Regex re = new Regex(@"^\+994\s((50|51|55|70|77)\s\d{3}\s\d{2}\s\d{2})$");
+                        Regex re = new Regex(@"^\+994\s?((50|51|55|70|77)\s?\d{3}\s?\d{2}\s?\d{2})$");
                         if (!re.IsMatch(x.PhoneNumber))
                         {
                             context.AddFailure("PhoneNumber", "Invalid phone number for Azerbaijan");

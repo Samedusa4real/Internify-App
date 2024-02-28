@@ -31,8 +31,14 @@ namespace Forage.App.Controllers
         [ActionName("Register")]
         public async Task<IActionResult> Register(RegisterPartnerDto dto)
         {
-            var response = await _identityService.Register(dto, dto.role);
-            return Ok(response);
+            var entityRole = dto.role;
+            var response = await _identityService.Register(dto, entityRole);
+
+            if (response.StatusCode != 200)
+                return NotFound();
+            
+            else
+                return Ok(response);
         }
 
         [HttpPut]
