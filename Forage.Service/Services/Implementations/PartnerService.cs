@@ -42,7 +42,7 @@ namespace Forage.Service.Services.Implementations
                 };
             }
             Partner Partner = _mapper.Map<Partner>(dto);
-			Partner.Logo = dto.file.CreateImage(_evn.WebRootPath, "Images/Partners");
+			Partner.Logo = dto.file.CreateImage(_evn.WebRootPath, "/Images/Partners");
 			Partner.LogoUrl = _http.HttpContext?.Request.Scheme + "://" + _http.HttpContext?.Request.Host
 				+ $"Images/Partners/{Partner.Logo}";
 			await _repository.AddAsync(Partner);

@@ -120,7 +120,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 227, DateTimeKind.Utc).AddTicks(9202));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 524, DateTimeKind.Utc).AddTicks(9857));
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -169,7 +169,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 227, DateTimeKind.Utc).AddTicks(9470));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 525, DateTimeKind.Utc).AddTicks(152));
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -233,7 +233,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 228, DateTimeKind.Utc).AddTicks(190));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 525, DateTimeKind.Utc).AddTicks(923));
 
                     b.Property<bool>("IsActive")
                         .ValueGeneratedOnAdd()
@@ -282,7 +282,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 227, DateTimeKind.Utc).AddTicks(8557));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 524, DateTimeKind.Utc).AddTicks(9145));
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -321,7 +321,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 228, DateTimeKind.Utc).AddTicks(993));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 525, DateTimeKind.Utc).AddTicks(1609));
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -376,7 +376,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 228, DateTimeKind.Utc).AddTicks(2303));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 525, DateTimeKind.Utc).AddTicks(2991));
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -412,7 +412,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 228, DateTimeKind.Utc).AddTicks(1218));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 525, DateTimeKind.Utc).AddTicks(1879));
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -441,7 +441,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 227, DateTimeKind.Utc).AddTicks(8754));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 524, DateTimeKind.Utc).AddTicks(9389));
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -502,7 +502,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 227, DateTimeKind.Utc).AddTicks(8073));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 524, DateTimeKind.Utc).AddTicks(8631));
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -551,7 +551,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 227, DateTimeKind.Utc).AddTicks(8303));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 524, DateTimeKind.Utc).AddTicks(8882));
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -588,7 +588,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 228, DateTimeKind.Utc).AddTicks(1644));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 525, DateTimeKind.Utc).AddTicks(2338));
 
                     b.Property<string>("Experience")
                         .IsRequired()
@@ -640,7 +640,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 228, DateTimeKind.Utc).AddTicks(3237));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 525, DateTimeKind.Utc).AddTicks(3946));
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -666,6 +666,34 @@ namespace Forage.Data.Migrations
                     b.ToTable("Partners");
                 });
 
+            modelBuilder.Entity("Forage.Core.Entities.PrivacyNotice", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 525, DateTimeKind.Utc).AddTicks(4184));
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PrivacyNotices");
+                });
+
             modelBuilder.Entity("Forage.Core.Entities.Question", b =>
                 {
                     b.Property<int>("Id")
@@ -677,7 +705,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 227, DateTimeKind.Utc).AddTicks(7640));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 524, DateTimeKind.Utc).AddTicks(8167));
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -728,7 +756,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 228, DateTimeKind.Utc).AddTicks(2979));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 525, DateTimeKind.Utc).AddTicks(3680));
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -771,7 +799,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 228, DateTimeKind.Utc).AddTicks(407));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 525, DateTimeKind.Utc).AddTicks(1169));
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -800,7 +828,7 @@ namespace Forage.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 2, 26, 14, 47, 45, 228, DateTimeKind.Utc).AddTicks(2548));
+                        .HasDefaultValue(new DateTime(2024, 2, 29, 14, 9, 35, 525, DateTimeKind.Utc).AddTicks(3243));
 
                     b.Property<string>("Email")
                         .IsRequired()

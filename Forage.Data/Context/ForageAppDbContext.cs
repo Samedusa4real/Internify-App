@@ -34,6 +34,8 @@ namespace Forage.Data.Context
         public DbSet<Subscribe> Subscribes { get; set; }
         public DbSet<Setting> Settings { get; set; }
         public DbSet<Partner> Partners { get; set; }
+        public DbSet<PrivacyNotice> PrivacyNotices { get; set; }
+
         public ForageAppDbContext(DbContextOptions<ForageAppDbContext> options) : base(options)
         {
         }
@@ -55,7 +57,8 @@ namespace Forage.Data.Context
             modelBuilder.ApplyConfiguration(new SubscribeConfiguration());
             modelBuilder.ApplyConfiguration(new SettingConfiguration());
 			modelBuilder.ApplyConfiguration(new PartnerConfiguration());
-			base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfiguration(new PrivacyNoticeConfiguration());
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

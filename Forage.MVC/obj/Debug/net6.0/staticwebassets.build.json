@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n0QHR1/ZMujVgPxbStoBL2iX1qatwgUrzl92tIcq+oI=",
+  "Hash": "6pCQBeetcrV8Ae4TecXgK7Qo952xWSBL6WxH0CxNPsQ=",
   "Source": "Forage.MVC",
   "BasePath": "_content/Forage.MVC",
   "Mode": "Default",
@@ -2004,6 +2004,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Partners\\8750be13-dc63-4d31-8d9d-3490fc3c49f3Forage.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Partners\\ce9758a6-a31c-450e-bcfd-341fe02b5e37UPUCUZLUQ AKSESUAR (1).png",
+      "SourceId": "Forage.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
+      "BasePath": "_content/Forage.MVC",
+      "RelativePath": "Images/Partners/ce9758a6-a31c-450e-bcfd-341fe02b5e37UPUCUZLUQ AKSESUAR (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Partners\\ce9758a6-a31c-450e-bcfd-341fe02b5e37UPUCUZLUQ AKSESUAR (1).png"
     },
     {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Settings\\d8d2ae67-930e-443c-be14-c36b7d431e86codeacademy.webp",
