@@ -34,11 +34,11 @@ namespace Forage.Service.Validations.Accounts
                     }
                 });
 
-           RuleFor(x => x.Password)
+            RuleFor(x => x.Password)
                 .NotEmpty().WithMessage("Password is required")
                 .NotNull().WithMessage("Password is required");
 
-           RuleFor(x => x)
+            RuleFor(x => x)
                 .Custom((x, context) =>
                 {
                     if (x.PhoneNumber != null)

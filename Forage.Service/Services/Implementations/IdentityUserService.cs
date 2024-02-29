@@ -139,7 +139,7 @@ namespace Forage.Service.Services.Implementations
             };
         }
 
-        public async Task<BaseReponse> RegisterForIntern(RegisterPartnerDto registerDto, string? role)
+        public async Task<BaseReponse> RegisterForIntern(RegisterInternDto registerDto, string? role)
         {
             var user = await _userManager.FindByEmailAsync(registerDto.Email);
             if (user is not null)
@@ -151,13 +151,13 @@ namespace Forage.Service.Services.Implementations
                 };
             }
 
-            var companyExists = await _companyService.CompanyExistsByName(registerDto.CompanyName);
-            if (companyExists)
+            var phoneExists = await _companyService.CompanyExistsByName(registerDto.PhoneNumber);
+            if (phoneExists)
             {
                 return new BaseReponse
                 {
                     StatusCode = 400,
-                    Message = "This Company Name is already registered."
+                    Message = "This PhoneNumber is already taken."
                 };
             }
 
@@ -165,7 +165,7 @@ namespace Forage.Service.Services.Implementations
             {
                 Id = Guid.NewGuid().ToString(),
                 Email = registerDto.Email,
-                UserName = registerDto.Username,
+                UserName = registerDto.FullName,
             };
             IdentityResult result = await _userManager.CreateAsync(user, registerDto.Password);
             if (!result.Succeeded)

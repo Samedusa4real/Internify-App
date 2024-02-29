@@ -16,10 +16,10 @@ namespace Forage.Service.Dtos.Accounts
         [EmailAddress]
         public string Email { get; set; }
         public string Password { get; set; }
-        public string DateOfBirth { get; set; }
+        public string BirthYear { get; set; }
         public string Experience { get; set; }
         public string FieldsOfLaw { get; set; }
-        public string FinCode { get; set; }
+        public string FinNumber { get; set; }
         public IFormFile Image { get; set; }
         public string? role { get; set; }
     }

@@ -28,7 +28,7 @@ namespace Forage.App.Controllers
         }
 
         [HttpPost]
-        [ActionName("Register")]
+        [ActionName("PartnerRegister")]
         public async Task<IActionResult> Register(RegisterPartnerDto dto)
         {
             var response = await _identityService.Register(dto, "Company");
@@ -40,18 +40,18 @@ namespace Forage.App.Controllers
                 return Ok(response);
         }
 
-        //[HttpPost]
-        //[ActionName("InternRegister")]
-        //public async Task<IActionResult> RegisterForIntern(RegisterInternDto dto)
-        //{
-        //    var response = await _identityService.Register(dto, "Intern");
+        [HttpPost]
+        [ActionName("InternRegister")]
+        public async Task<IActionResult> RegisterForIntern([FromForm] RegisterInternDto dto)
+        {
+            var response = await _identityService.RegisterForIntern(dto, "Intern");
 
-        //    if (response.StatusCode != 200)
-        //        return NotFound();
+            if (response.StatusCode != 200)
+                return NotFound();
 
-        //    else
-        //        return Ok(response);
-        //}
+            else
+                return Ok(response);
+        }
 
         [HttpPut]
         [ActionName("Update")]
