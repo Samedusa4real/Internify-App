@@ -304,6 +304,166 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\bcd4b25f-5837-4367-bcfd-24ef26597406Img.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\0661cf08-40af-473f-beda-4685c01f3918UPUCUZLUQ AKSESUAR.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Interns/Cvs/0661cf08-40af-473f-beda-4685c01f3918UPUCUZLUQ AKSESUAR.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\0661cf08-40af-473f-beda-4685c01f3918UPUCUZLUQ AKSESUAR.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\1c08f22c-f53b-45a0-99a4-325fff9b0a57UPUCUZLUQ AKSESUAR.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Interns/Cvs/1c08f22c-f53b-45a0-99a4-325fff9b0a57UPUCUZLUQ AKSESUAR.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\1c08f22c-f53b-45a0-99a4-325fff9b0a57UPUCUZLUQ AKSESUAR.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\4cdf8516-6933-4cc9-8d2c-ee2c72061843UPUCUZLUQ AKSESUAR.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Interns/Cvs/4cdf8516-6933-4cc9-8d2c-ee2c72061843UPUCUZLUQ AKSESUAR.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\4cdf8516-6933-4cc9-8d2c-ee2c72061843UPUCUZLUQ AKSESUAR.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\5c3e1e43-e2b6-478b-992b-7152302a9c9bUPUCUZLUQ AKSESUAR (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Interns/Cvs/5c3e1e43-e2b6-478b-992b-7152302a9c9bUPUCUZLUQ AKSESUAR (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\5c3e1e43-e2b6-478b-992b-7152302a9c9bUPUCUZLUQ AKSESUAR (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\76888ba1-7686-4b25-8436-3760f1d06421UPUCUZLUQ AKSESUAR (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Interns/Cvs/76888ba1-7686-4b25-8436-3760f1d06421UPUCUZLUQ AKSESUAR (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\76888ba1-7686-4b25-8436-3760f1d06421UPUCUZLUQ AKSESUAR (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\7e423e89-cb4e-411f-94c9-86a7dd6e0b6bUPUCUZLUQ AKSESUAR.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Interns/Cvs/7e423e89-cb4e-411f-94c9-86a7dd6e0b6bUPUCUZLUQ AKSESUAR.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\7e423e89-cb4e-411f-94c9-86a7dd6e0b6bUPUCUZLUQ AKSESUAR.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\97830b09-69b9-4b99-82d7-a0a984241c77UPUCUZLUQ AKSESUAR (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Interns/Cvs/97830b09-69b9-4b99-82d7-a0a984241c77UPUCUZLUQ AKSESUAR (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\97830b09-69b9-4b99-82d7-a0a984241c77UPUCUZLUQ AKSESUAR (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\a902b036-51e4-49e1-80fa-18f83a6ae21dUPUCUZLUQ AKSESUAR.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Interns/Cvs/a902b036-51e4-49e1-80fa-18f83a6ae21dUPUCUZLUQ AKSESUAR.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\a902b036-51e4-49e1-80fa-18f83a6ae21dUPUCUZLUQ AKSESUAR.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\b531d994-6297-46d1-b563-0df3f52e7699UPUCUZLUQ AKSESUAR (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Interns/Cvs/b531d994-6297-46d1-b563-0df3f52e7699UPUCUZLUQ AKSESUAR (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\b531d994-6297-46d1-b563-0df3f52e7699UPUCUZLUQ AKSESUAR (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\e8dc2f8c-7cf9-4432-b725-6aff5d4effcbUPUCUZLUQ AKSESUAR.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Interns/Cvs/e8dc2f8c-7cf9-4432-b725-6aff5d4effcbUPUCUZLUQ AKSESUAR.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\Cvs\e8dc2f8c-7cf9-4432-b725-6aff5d4effcbUPUCUZLUQ AKSESUAR.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Interns\d0249076-b1b8-4042-acb7-a0109ce18cb3Img.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Forage.App</SourceId>

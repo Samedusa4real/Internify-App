@@ -29,9 +29,6 @@ namespace Forage.Service.Validations.Interns
  .NotNull().WithMessage("FinNumber Length is 7")
  .MinimumLength(7)
  .MaximumLength(7);
-            RuleFor(x => x.BirthYear)
-      .NotEmpty()
-      .NotNull();
             RuleFor(x => x)
                .Custom((x, context) =>
                {

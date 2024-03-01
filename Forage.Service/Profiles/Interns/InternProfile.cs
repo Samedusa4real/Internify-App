@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Forage.Core.Entities;
+using Forage.Service.Dtos.Accounts;
 using Forage.Service.Dtos.Interns;
 using System;
 using System.Collections.Generic;

@@ -23,9 +23,6 @@ namespace Forage.Service.Validations.Interns
       .NotNull().WithMessage("Surname can not be null")
       .MinimumLength(3)
       .MaximumLength(30);
-            RuleFor(x => x.BirthYear)
-      .NotEmpty()
-      .NotNull();
             RuleFor(x => x)
                .Custom((x, context) =>
                {

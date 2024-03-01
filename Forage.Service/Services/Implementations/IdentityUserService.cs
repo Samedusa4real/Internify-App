@@ -1,12 +1,17 @@
-﻿using Forage.Core.Entities;
+﻿using AutoMapper;
+using Forage.Core.Entities;
+using Forage.Core.Repositories;
+using Forage.Data.Repositories;
 using Forage.Service.Dtos.Accounts;
 using Forage.Service.Dtos.Common.ResponsesDtos;
 using Forage.Service.Dtos.Tokens;
 using Forage.Service.Exceptions;
 using Forage.Service.Exceptions.AuthExceptions;
+using Forage.Service.Extensions;
 using Forage.Service.Responses;
 using Forage.Service.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -17,6 +22,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Security.Claims;
@@ -27,16 +33,20 @@ namespace Forage.Service.Services.Implementations
 {
     public class IdentityUserService : IIdentityUserService
     {
-       private readonly UserManager<AppUser> _userManager;
+        private readonly IInternRepository _internRepository;
+        private readonly UserManager<AppUser> _userManager;
         readonly SignInManager<AppUser> _signInManager;
         readonly ITokenHandler _tokenHandler;
         readonly IAuthService _authService;
         readonly RoleManager<IdentityRole> RoleManager;
         readonly IHttpContextAccessor _http;
         private readonly ICompanyService _companyService;
+        private readonly IMapper _mapper;
+        private readonly IWebHostEnvironment _evn;
         readonly IConfiguration _configuration;
-        public IdentityUserService(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ITokenHandler tokenHandler, IAuthService authService, IConfiguration configuration, RoleManager<IdentityRole> roleManager, IHttpContextAccessor http, ICompanyService companyService)
+        public IdentityUserService(IInternRepository internRepository ,UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ITokenHandler tokenHandler, IAuthService authService, IConfiguration configuration, RoleManager<IdentityRole> roleManager, IHttpContextAccessor http, ICompanyService companyService, IMapper mapper, IWebHostEnvironment evn)
         {
+            _internRepository = internRepository;
             _userManager = userManager;
             _signInManager = signInManager;
             _tokenHandler = tokenHandler;
@@ -45,8 +55,9 @@ namespace Forage.Service.Services.Implementations
             RoleManager = roleManager;
             _http = http;
             _companyService = companyService;
+            _mapper = mapper;
+            _evn = evn;
         }
-
 
         public async Task<ApiResponse> GetCurrentUser()
         {
@@ -166,7 +177,10 @@ namespace Forage.Service.Services.Implementations
                 Id = Guid.NewGuid().ToString(),
                 Email = registerDto.Email,
                 UserName = registerDto.FullName,
-            };
+            };  
+
+            string imageName = registerDto.Image.CreateImage(_evn.WebRootPath, "Images/Interns/Cvs");
+
             IdentityResult result = await _userManager.CreateAsync(user, registerDto.Password);
             if (!result.Succeeded)
             {
@@ -179,8 +193,26 @@ namespace Forage.Service.Services.Implementations
                     };
                 }
             }
+
             await _userManager.AddToRoleAsync(user, role);
             user = await _userManager.FindByEmailAsync(registerDto.Email);
+
+            var intern = new Intern()
+            {
+                AppUserId = user.Id,
+                Name = registerDto.FullName,
+                Surname = registerDto.FullName,
+                BirthYear = registerDto.BirthYear,
+                FinNumber = registerDto.FinNumber,
+                Experience = registerDto.Experience,
+                CvFileName = imageName,
+                Image = "",
+                ImageUrl = ""
+            };
+
+            await _internRepository.AddAsync(intern);
+            await _internRepository.SaveAsync();
+
             return new()
             {
                 UserId = user.Id.ToString(),

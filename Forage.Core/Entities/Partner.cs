@@ -12,10 +12,10 @@ namespace Forage.Core.Entities
 		public string Name { get; set; }
 		public string Logo { get; set; }
 		public string LogoUrl { get; set; }
-        public string CompanyName { get; set; }
-        public string LegalAddress { get; set; }
-        public string ActualAddress { get; set; }
-        public string PhoneNumber { get; set; }
+        public string? CompanyName { get; set; }
+        public string? LegalAddress { get; set; }
+        public string? ActualAddress { get; set; }
+        public string? PhoneNumber { get; set; }
         public int CompanyIndustryFieldId { get; set; }
     }
 }

@@ -144,7 +144,7 @@ namespace Forage.Service.Services.Implementations
             }
             if (dto.file is not null)
             {
-                Intern.Image = dto.file.CreateImage(_evn.WebRootPath, "Images/Interns");
+                Intern.Image = dto.file.CreateImage(_evn.WebRootPath, "/Images/Interns");
                 Intern.ImageUrl = _http.HttpContext?.Request.Scheme + "://" + _http.HttpContext?.Request.Host
                     + $"Images/Interns/{Intern.Image}";
             }
