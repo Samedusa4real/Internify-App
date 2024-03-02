@@ -40,22 +40,18 @@ namespace Forage.Service.Services.Implementations
             {
                 myClaims.Add(new(ClaimTypes.Role, role));
             }
-            SecurityKey securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("JwtTokenSettings:SignInKey").Value));
 
-            SigningCredentials signingCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+            var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(_configuration["Security:Secret"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
 
-            JwtSecurityToken jwtSecurityToken = new(
-                issuer: _configuration["JwtTokenSettings:ValidIssuer"],
-                audience: _configuration["JwtTokenSettings:ValidAudience"],
-                claims: myClaims,
-                notBefore: DateTime.UtcNow.AddMinutes(120),
-                expires: tokenResponseDto.Expiration,
-                signingCredentials: signingCredentials
-                );
+            var token = new JwtSecurityToken(claims: myClaims,
+                signingCredentials: creds,
+                expires: DateTime.Now.AddDays(3),
+                issuer: _configuration["Security:Issuer"],
+                audience: _configuration["Security:Audience"]);
 
-
-            JwtSecurityTokenHandler tokenHandler = new();
-            tokenResponseDto.AccessToken = tokenHandler.WriteToken(jwtSecurityToken);
+            var tokenStr = new JwtSecurityTokenHandler().WriteToken(token);
+            tokenResponseDto.AccessToken = tokenStr;
             tokenResponseDto.RefreshToken = CreateRefreshToken();
             return tokenResponseDto;
         }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mNqA/hJiS7OJzt2BUae4zN/yKrcMOM+Uq5Xw7kKif3A=",
+  "Hash": "leFy1Aj1CB8fwEe/V9gZDXn8iRxtdAM3XG+youlWUp0=",
   "Source": "Forage.App",
   "BasePath": "_content/Forage.App",
   "Mode": "Default",
@@ -408,6 +408,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\Interns\\Cvs\\5c3e1e43-e2b6-478b-992b-7152302a9c9bUPUCUZLUQ AKSESUAR (1).png"
     },
     {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Interns\\Cvs\\6eddf8dc-641e-4dd9-9df1-4e87f2e046feUPUCUZLUQ AKSESUAR.png",
+      "SourceId": "Forage.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\",
+      "BasePath": "_content/Forage.App",
+      "RelativePath": "Images/Interns/Cvs/6eddf8dc-641e-4dd9-9df1-4e87f2e046feUPUCUZLUQ AKSESUAR.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Interns\\Cvs\\6eddf8dc-641e-4dd9-9df1-4e87f2e046feUPUCUZLUQ AKSESUAR.png"
+    },
+    {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Interns\\Cvs\\76888ba1-7686-4b25-8436-3760f1d06421UPUCUZLUQ AKSESUAR (1).png",
       "SourceId": "Forage.App",
       "SourceType": "Discovered",
@@ -508,6 +525,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Interns\\Cvs\\e8dc2f8c-7cf9-4432-b725-6aff5d4effcbUPUCUZLUQ AKSESUAR.png"
+    },
+    {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Interns\\Cvs\\f48e79ee-b257-4b23-b564-63bebdc9287dUPUCUZLUQ AKSESUAR (1).png",
+      "SourceId": "Forage.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\",
+      "BasePath": "_content/Forage.App",
+      "RelativePath": "Images/Interns/Cvs/f48e79ee-b257-4b23-b564-63bebdc9287dUPUCUZLUQ AKSESUAR (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Interns\\Cvs\\f48e79ee-b257-4b23-b564-63bebdc9287dUPUCUZLUQ AKSESUAR (1).png"
     },
     {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Interns\\d0249076-b1b8-4042-acb7-a0109ce18cb3Img.jpg",
