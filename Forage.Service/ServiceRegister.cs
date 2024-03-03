@@ -90,7 +90,10 @@ namespace Forage.Service
             services.AddScoped<IPartnerService, PartnerService>();
 			services.AddScoped<ISettingRepository, SettingRepository>();
 			services.AddScoped<ISettingService, SettingService>();
-			#endregion
-		}
-	}
+            services.AddScoped<IPrivacyNoticeRepository, PrivacyNoticeRepository>();
+            services.AddScoped<IPrivacyNoticeService, PrivacyNoticeService>();
+
+            #endregion
+        }
+    }
 }

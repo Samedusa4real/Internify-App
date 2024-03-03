@@ -112,6 +112,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Companies\04528d43-6c14-441f-8019-3e5d189c66b3codeacademy.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Companies\1dcb936f-cb5c-479f-a83e-20359288b327UPUCUZLUQ AKSESUAR (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Companies/1dcb936f-cb5c-479f-a83e-20359288b327UPUCUZLUQ AKSESUAR (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Companies\1dcb936f-cb5c-479f-a83e-20359288b327UPUCUZLUQ AKSESUAR (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Companies\441dabf8-6df6-4dfc-830e-77a7eb08ffcccodeacademy.webp))">
       <SourceType>Package</SourceType>
       <SourceId>Forage.App</SourceId>
@@ -128,6 +144,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Companies\441dabf8-6df6-4dfc-830e-77a7eb08ffcccodeacademy.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Companies\83a69f8a-a975-4665-891e-e1ca41a38d6fUPUCUZLUQ AKSESUAR (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Companies/83a69f8a-a975-4665-891e-e1ca41a38d6fUPUCUZLUQ AKSESUAR (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Companies\83a69f8a-a975-4665-891e-e1ca41a38d6fUPUCUZLUQ AKSESUAR (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Companies\83dd6eef-ff15-49af-a94f-c6bb62bb4677codeacademy.webp))">
       <SourceType>Package</SourceType>
       <SourceId>Forage.App</SourceId>
@@ -143,6 +175,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Companies\83dd6eef-ff15-49af-a94f-c6bb62bb4677codeacademy.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Companies\acf9dfd4-573e-48dd-87cf-ac9d827d7e08UPUCUZLUQ AKSESUAR (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Companies/acf9dfd4-573e-48dd-87cf-ac9d827d7e08UPUCUZLUQ AKSESUAR (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Companies\acf9dfd4-573e-48dd-87cf-ac9d827d7e08UPUCUZLUQ AKSESUAR (1).png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Companies\d10f9d90-779a-4a23-8293-14277bfcdf4acoca.png))">
       <SourceType>Package</SourceType>
@@ -176,6 +224,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Courses\12290aaf-f47e-4c16-89be-68b42bf3d8b1codeacademy.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Courses\13eade20-9ded-415e-ac62-5e1cfb060c32UPUCUZLUQ AKSESUAR (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Courses/13eade20-9ded-415e-ac62-5e1cfb060c32UPUCUZLUQ AKSESUAR (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Courses\13eade20-9ded-415e-ac62-5e1cfb060c32UPUCUZLUQ AKSESUAR (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Courses\ace26187-4f64-42ea-bea1-191b606e5f5ccodeacademy.webp))">
       <SourceType>Package</SourceType>
       <SourceId>Forage.App</SourceId>
@@ -191,6 +255,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Courses\ace26187-4f64-42ea-bea1-191b606e5f5ccodeacademy.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Courses\ba4759e5-19e6-49c8-8025-69b3f5895673UPUCUZLUQ AKSESUAR (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/Courses/ba4759e5-19e6-49c8-8025-69b3f5895673UPUCUZLUQ AKSESUAR (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Courses\ba4759e5-19e6-49c8-8025-69b3f5895673UPUCUZLUQ AKSESUAR (1).png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Courses\c2ed6c10-cb44-49f6-9c6d-b2bab6fec21dcodeacademy.webp))">
       <SourceType>Package</SourceType>
@@ -608,6 +688,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Template\Verify.html))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\CourseLessons\2de6babc-7198-4157-b56f-d1de52eb4aea20230922_131738.mp4))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Videos/CourseLessons/2de6babc-7198-4157-b56f-d1de52eb4aea20230922_131738.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\CourseLessons\2de6babc-7198-4157-b56f-d1de52eb4aea20230922_131738.mp4))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\CourseLessons\37626547-51a4-4946-9178-b518461c267fMadrigal - Seni Dert Etmeler (Official Audio).mp4))">
       <SourceType>Package</SourceType>
       <SourceId>Forage.App</SourceId>
@@ -623,6 +719,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\CourseLessons\37626547-51a4-4946-9178-b518461c267fMadrigal - Seni Dert Etmeler (Official Audio).mp4))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\CourseLessons\61102133-a116-4226-b727-3f60d578fb2f20230922_131626.mp4))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Videos/CourseLessons/61102133-a116-4226-b727-3f60d578fb2f20230922_131626.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\CourseLessons\61102133-a116-4226-b727-3f60d578fb2f20230922_131626.mp4))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\CourseLessons\a1b1be7a-a3f9-4fc7-92b9-40f8b5460ceb20230922_131738.mp4))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Videos/CourseLessons/a1b1be7a-a3f9-4fc7-92b9-40f8b5460ceb20230922_131738.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\CourseLessons\a1b1be7a-a3f9-4fc7-92b9-40f8b5460ceb20230922_131738.mp4))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\CourseLessons\d7de74e7-8246-42d3-9159-46d6b9ee692fMadrigal - Seni Dert Etmeler (Official Audio).mp4))">
       <SourceType>Package</SourceType>
@@ -656,6 +784,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\Courses\0439c468-ec10-4e3a-9feb-693f15fb3bbaMadrigal - Seni Dert Etmeler (Official Audio).mp4))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\Courses\bbe48d6e-1366-42c3-be64-869043899d4c20230922_131738.mp4))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Videos/Courses/bbe48d6e-1366-42c3-be64-869043899d4c20230922_131738.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\Courses\bbe48d6e-1366-42c3-be64-869043899d4c20230922_131738.mp4))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\Courses\c198a0db-8d28-4199-9233-98c6d1cc1716Madrigal - Seni Dert Etmeler (Official Audio).mp4))">
       <SourceType>Package</SourceType>
       <SourceId>Forage.App</SourceId>
@@ -671,6 +815,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\Courses\c198a0db-8d28-4199-9233-98c6d1cc1716Madrigal - Seni Dert Etmeler (Official Audio).mp4))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\Courses\d0da665b-d4a2-4c48-8e86-0fb30e3a277920230922_131738.mp4))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Videos/Courses/d0da665b-d4a2-4c48-8e86-0fb30e3a277920230922_131738.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\Courses\d0da665b-d4a2-4c48-8e86-0fb30e3a277920230922_131738.mp4))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\Courses\df419367-5024-40e1-b1f1-6a1847b05366Madrigal - Seni Dert Etmeler (Official Audio).mp4))">
       <SourceType>Package</SourceType>

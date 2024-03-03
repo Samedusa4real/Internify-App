@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "leFy1Aj1CB8fwEe/V9gZDXn8iRxtdAM3XG+youlWUp0=",
+  "Hash": "/XRb/NRKUxl0fXLw7WTO+97m+OaMAqrjv6j3RIYHBic=",
   "Source": "Forage.App",
   "BasePath": "_content/Forage.App",
   "Mode": "Default",
@@ -136,6 +136,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\Companies\\04528d43-6c14-441f-8019-3e5d189c66b3codeacademy.webp"
     },
     {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Companies\\1dcb936f-cb5c-479f-a83e-20359288b327UPUCUZLUQ AKSESUAR (1).png",
+      "SourceId": "Forage.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\",
+      "BasePath": "_content/Forage.App",
+      "RelativePath": "Images/Companies/1dcb936f-cb5c-479f-a83e-20359288b327UPUCUZLUQ AKSESUAR (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Companies\\1dcb936f-cb5c-479f-a83e-20359288b327UPUCUZLUQ AKSESUAR (1).png"
+    },
+    {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Companies\\441dabf8-6df6-4dfc-830e-77a7eb08ffcccodeacademy.webp",
       "SourceId": "Forage.App",
       "SourceType": "Discovered",
@@ -153,6 +170,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\Companies\\441dabf8-6df6-4dfc-830e-77a7eb08ffcccodeacademy.webp"
     },
     {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Companies\\83a69f8a-a975-4665-891e-e1ca41a38d6fUPUCUZLUQ AKSESUAR (1).png",
+      "SourceId": "Forage.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\",
+      "BasePath": "_content/Forage.App",
+      "RelativePath": "Images/Companies/83a69f8a-a975-4665-891e-e1ca41a38d6fUPUCUZLUQ AKSESUAR (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Companies\\83a69f8a-a975-4665-891e-e1ca41a38d6fUPUCUZLUQ AKSESUAR (1).png"
+    },
+    {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Companies\\83dd6eef-ff15-49af-a94f-c6bb62bb4677codeacademy.webp",
       "SourceId": "Forage.App",
       "SourceType": "Discovered",
@@ -168,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Companies\\83dd6eef-ff15-49af-a94f-c6bb62bb4677codeacademy.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Companies\\acf9dfd4-573e-48dd-87cf-ac9d827d7e08UPUCUZLUQ AKSESUAR (1).png",
+      "SourceId": "Forage.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\",
+      "BasePath": "_content/Forage.App",
+      "RelativePath": "Images/Companies/acf9dfd4-573e-48dd-87cf-ac9d827d7e08UPUCUZLUQ AKSESUAR (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Companies\\acf9dfd4-573e-48dd-87cf-ac9d827d7e08UPUCUZLUQ AKSESUAR (1).png"
     },
     {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Companies\\d10f9d90-779a-4a23-8293-14277bfcdf4acoca.png",
@@ -204,6 +255,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\Courses\\12290aaf-f47e-4c16-89be-68b42bf3d8b1codeacademy.webp"
     },
     {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Courses\\13eade20-9ded-415e-ac62-5e1cfb060c32UPUCUZLUQ AKSESUAR (1).png",
+      "SourceId": "Forage.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\",
+      "BasePath": "_content/Forage.App",
+      "RelativePath": "Images/Courses/13eade20-9ded-415e-ac62-5e1cfb060c32UPUCUZLUQ AKSESUAR (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Courses\\13eade20-9ded-415e-ac62-5e1cfb060c32UPUCUZLUQ AKSESUAR (1).png"
+    },
+    {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Courses\\ace26187-4f64-42ea-bea1-191b606e5f5ccodeacademy.webp",
       "SourceId": "Forage.App",
       "SourceType": "Discovered",
@@ -219,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Courses\\ace26187-4f64-42ea-bea1-191b606e5f5ccodeacademy.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Courses\\ba4759e5-19e6-49c8-8025-69b3f5895673UPUCUZLUQ AKSESUAR (1).png",
+      "SourceId": "Forage.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\",
+      "BasePath": "_content/Forage.App",
+      "RelativePath": "Images/Courses/ba4759e5-19e6-49c8-8025-69b3f5895673UPUCUZLUQ AKSESUAR (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Courses\\ba4759e5-19e6-49c8-8025-69b3f5895673UPUCUZLUQ AKSESUAR (1).png"
     },
     {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Courses\\c2ed6c10-cb44-49f6-9c6d-b2bab6fec21dcodeacademy.webp",
@@ -663,6 +748,23 @@
       "OriginalItemSpec": "wwwroot\\Template\\Verify.html"
     },
     {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Videos\\CourseLessons\\2de6babc-7198-4157-b56f-d1de52eb4aea20230922_131738.mp4",
+      "SourceId": "Forage.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\",
+      "BasePath": "_content/Forage.App",
+      "RelativePath": "Videos/CourseLessons/2de6babc-7198-4157-b56f-d1de52eb4aea20230922_131738.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\CourseLessons\\2de6babc-7198-4157-b56f-d1de52eb4aea20230922_131738.mp4"
+    },
+    {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Videos\\CourseLessons\\37626547-51a4-4946-9178-b518461c267fMadrigal - Seni Dert Etmeler (Official Audio).mp4",
       "SourceId": "Forage.App",
       "SourceType": "Discovered",
@@ -678,6 +780,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Videos\\CourseLessons\\37626547-51a4-4946-9178-b518461c267fMadrigal - Seni Dert Etmeler (Official Audio).mp4"
+    },
+    {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Videos\\CourseLessons\\61102133-a116-4226-b727-3f60d578fb2f20230922_131626.mp4",
+      "SourceId": "Forage.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\",
+      "BasePath": "_content/Forage.App",
+      "RelativePath": "Videos/CourseLessons/61102133-a116-4226-b727-3f60d578fb2f20230922_131626.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\CourseLessons\\61102133-a116-4226-b727-3f60d578fb2f20230922_131626.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Videos\\CourseLessons\\a1b1be7a-a3f9-4fc7-92b9-40f8b5460ceb20230922_131738.mp4",
+      "SourceId": "Forage.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\",
+      "BasePath": "_content/Forage.App",
+      "RelativePath": "Videos/CourseLessons/a1b1be7a-a3f9-4fc7-92b9-40f8b5460ceb20230922_131738.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\CourseLessons\\a1b1be7a-a3f9-4fc7-92b9-40f8b5460ceb20230922_131738.mp4"
     },
     {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Videos\\CourseLessons\\d7de74e7-8246-42d3-9159-46d6b9ee692fMadrigal - Seni Dert Etmeler (Official Audio).mp4",
@@ -714,6 +850,23 @@
       "OriginalItemSpec": "wwwroot\\Videos\\Courses\\0439c468-ec10-4e3a-9feb-693f15fb3bbaMadrigal - Seni Dert Etmeler (Official Audio).mp4"
     },
     {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Videos\\Courses\\bbe48d6e-1366-42c3-be64-869043899d4c20230922_131738.mp4",
+      "SourceId": "Forage.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\",
+      "BasePath": "_content/Forage.App",
+      "RelativePath": "Videos/Courses/bbe48d6e-1366-42c3-be64-869043899d4c20230922_131738.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\Courses\\bbe48d6e-1366-42c3-be64-869043899d4c20230922_131738.mp4"
+    },
+    {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Videos\\Courses\\c198a0db-8d28-4199-9233-98c6d1cc1716Madrigal - Seni Dert Etmeler (Official Audio).mp4",
       "SourceId": "Forage.App",
       "SourceType": "Discovered",
@@ -729,6 +882,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Videos\\Courses\\c198a0db-8d28-4199-9233-98c6d1cc1716Madrigal - Seni Dert Etmeler (Official Audio).mp4"
+    },
+    {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Videos\\Courses\\d0da665b-d4a2-4c48-8e86-0fb30e3a277920230922_131738.mp4",
+      "SourceId": "Forage.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\",
+      "BasePath": "_content/Forage.App",
+      "RelativePath": "Videos/Courses/d0da665b-d4a2-4c48-8e86-0fb30e3a277920230922_131738.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\Courses\\d0da665b-d4a2-4c48-8e86-0fb30e3a277920230922_131738.mp4"
     },
     {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Videos\\Courses\\df419367-5024-40e1-b1f1-6a1847b05366Madrigal - Seni Dert Etmeler (Official Audio).mp4",
