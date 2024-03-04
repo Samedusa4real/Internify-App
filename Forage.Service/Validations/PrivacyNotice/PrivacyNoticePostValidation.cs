@@ -15,8 +15,7 @@ namespace Forage.Service.Validations.PrivacyNotice
             RuleFor(x => x.Text)
             .NotEmpty()
             .NotNull().WithMessage("Text can not be null")
-            .MinimumLength(250)
-            .MaximumLength(750);
+            .MinimumLength(250);
         }
     }
 }
