@@ -4,6 +4,7 @@
         <thead>
             <tr>
                 <th scope="col">Id</th>
+                <th scope="col">Title:</th>
                 <th scope="col">Text:</th>
                 <th scope="col">Update</th>
                 <th scope="col">Delete</th>
@@ -14,6 +15,7 @@
             {
                 <tr>
                     <th scope="row">@item.Id</th>
+                    <th>@item.Title</th>
                     <th>@item.Text</th>
                     <td>
                         <a asp-controller="PrivacyNotice" asp-action="update" asp-route-id="@item.Id">

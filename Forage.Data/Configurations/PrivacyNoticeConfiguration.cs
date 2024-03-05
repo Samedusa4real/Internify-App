@@ -13,6 +13,7 @@ namespace Forage.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<PrivacyNotice> builder)
         {
+            builder.Property(x => x.Title).IsRequired();
             builder.Property(x => x.Text).IsRequired();
             builder.Property(x => x.CreatedAt)
               .HasDefaultValue(DateTime.UtcNow.AddHours(4));

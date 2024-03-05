@@ -8,6 +8,8 @@ namespace Forage.Service.Dtos.PrivacyNotice
 {
     public class PrivacyNoticeUpdateDto
     {
+        public string Title { get; set; }
+
         public string Text { get; set; }
     }
 }

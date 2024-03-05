@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: auto;
+}
+.wrapper{
+    margin: auto;
+}
+.header{
+    background-color: #F8F8F8;
+    
+}
+#navigation{
+    padding-top: 32px;
+    display: flex;
+    
+    
+}

@@ -9,6 +9,7 @@ namespace Forage.Core.Entities
 {
     public class PrivacyNotice:BaseEntitiy
     {
+        public string Title { get; set; }
         public string Text { get; set; }
     }
 }
