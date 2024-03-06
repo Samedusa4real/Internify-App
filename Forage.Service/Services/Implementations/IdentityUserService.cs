@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
@@ -127,6 +128,8 @@ namespace Forage.Service.Services.Implementations
                 Id = Guid.NewGuid().ToString(),
                 Email = registerDto.Email,
                 UserName = registerDto.Username,
+                PhoneNumber = registerDto.PhoneNumber,
+                Role = "Company"
             };
             IdentityResult result = await _userManager.CreateAsync(user, registerDto.Password);
             if (!result.Succeeded)
@@ -177,6 +180,8 @@ namespace Forage.Service.Services.Implementations
                 Id = Guid.NewGuid().ToString(),
                 Email = registerDto.Email,
                 UserName = registerDto.FullName,
+                PhoneNumber = registerDto.PhoneNumber,
+                Role = "Intern"
             };  
 
             string imageName = registerDto.Image.CreateImage(_evn.WebRootPath, "Images/Interns/Cvs");

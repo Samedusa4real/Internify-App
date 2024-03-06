@@ -14,8 +14,10 @@ namespace Forage.Service.Validations.Accounts
         public RegisterInternDtoValidation()
         {
             RuleFor(x => x.FullName)
+                .Cascade(CascadeMode.StopOnFirstFailure)
                 .NotEmpty().WithMessage("FullName is required")
-                .NotNull().WithMessage("FullName is required");
+                .NotNull().WithMessage("FullName is required")
+                .Matches(@"^[a-zA-Z\s]+$").WithMessage("FullName should only contain letters and spaces");
 
             RuleFor(x => x)
                 .Custom((x, context) =>

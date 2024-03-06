@@ -11,6 +11,7 @@ namespace Forage.Core.Entities
     {
         public string RefreshToken { get; set; } = string.Empty;
         public DateTime RefreshTokenExpirationDate { get; set; }
+        public string Role { get; set;}
         public List<Intern>? Interns { get; set; }
         public List<Company>? Companies { get; set; }
     }
