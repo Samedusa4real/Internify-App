@@ -44,10 +44,10 @@ namespace Forage.Service.Services.Implementations
             Course Course = _mapper.Map<Course>(dto);
             Course.AboutImage = dto.AboutImage.CreateImage(_evn.WebRootPath, "Images/Courses");
             Course.AboutImageUrl = _http.HttpContext?.Request.Scheme + "://" + _http.HttpContext?.Request.Host
-                + $"Images/Courses/{Course.AboutImage}";
+                + $"/Images/Courses/{Course.AboutImage}";
             Course.AboutVideo = dto.AboutVideo.CreateImage(_evn.WebRootPath, "Videos/Courses");
             Course.AboutVideoUrl = _http.HttpContext?.Request.Scheme + "://" + _http.HttpContext?.Request.Host
-                + $"Videos/Courses/{Course.AboutVideo}";
+                + $"/Videos/Courses/{Course.AboutVideo}";
             foreach (var item in dto.SkillIds)
             {
                 if (!await _skillRepository.isExsist(x => x.Id == item))

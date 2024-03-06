@@ -53,6 +53,7 @@ namespace Forage.Service.Services.Implementations
             var tokenStr = new JwtSecurityTokenHandler().WriteToken(token);
             tokenResponseDto.AccessToken = tokenStr;
             tokenResponseDto.RefreshToken = CreateRefreshToken();
+            tokenResponseDto.Role = user.Role;
             return tokenResponseDto;
         }
 

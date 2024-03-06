@@ -50,6 +50,7 @@ namespace Forage.Service
 				options.Password.RequireDigit = true;
 				//options.SignIn.RequireConfirmedEmail = true;
 				options.User.RequireUniqueEmail = true;
+                options.Password.RequiredLength = 6;
 			});
 			#region AddScoped
 

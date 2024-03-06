@@ -13,9 +13,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScope(builder.Configuration);
 builder.Services.AddEndpointsApiExplorer();
 
-builder.Services.AddSwaggerGen();
-
-
 builder.Services.AddDbContext<ForageAppDbContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
@@ -23,11 +20,14 @@ builder.Services.AddDbContext<ForageAppDbContext>(opt =>
 
 builder.Services.AddHttpContextAccessor();
 
+// Remove this redundant call to AddSwaggerGen()
+// builder.Services.AddSwaggerGen();
+
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title = "Course API",
+        Title = "Forage.App API",
         Version = "v1",
         Description = "An API to perform Employee operations",
         TermsOfService = new Uri("https://example.com/terms"),
@@ -53,19 +53,19 @@ builder.Services.AddSwaggerGen(c =>
         Description = "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer 1safsfsdfdfd\"",
     });
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
- {
-     {
-           new OpenApiSecurityScheme
-             {
-                 Reference = new OpenApiReference
-                 {
-                     Type = ReferenceType.SecurityScheme,
-                     Id = "Bearer"
-                 }
-             },
-           new string[] {}
-     }
- });
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
 });
 
 builder.Services.AddAuthentication(opt =>
@@ -99,12 +99,16 @@ builder.Services.AddCors(o => o.AddPolicy("Forage", builder =>
 // Add services to the container.
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (string.IsNullOrEmpty(app.Configuration.GetValue<String>("KEY")))
+    throw new Exception("Error");
+
+// Remove this redundant call to UseSwagger()
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+    c.RoutePrefix = string.Empty;
+});
 app.UseCors("Forage");
 app.UseHttpsRedirection();
 app.UseAuthentication();
