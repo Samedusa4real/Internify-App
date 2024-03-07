@@ -17,7 +17,7 @@ namespace Forage.Core.Entities
         public string PhoneNumber { get; set; }
         public string ActualAddress { get; set; }
         public string ContactPersonName { get; set; }
-        public int CompanyIndustryFieldId { get; set; }
+        public int? CompanyIndustryFieldId { get; set; }
         public string AppUserId { get; set; }
         public AppUser AppUser { get; set; }
         public CompanyIndustryField? CompanyIndustryField { get; set; }

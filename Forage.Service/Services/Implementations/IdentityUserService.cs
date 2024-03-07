@@ -35,6 +35,7 @@ namespace Forage.Service.Services.Implementations
     public class IdentityUserService : IIdentityUserService
     {
         private readonly IInternRepository _internRepository;
+        private readonly ICompanyRepository _companyRepository;
         private readonly UserManager<AppUser> _userManager;
         readonly SignInManager<AppUser> _signInManager;
         readonly ITokenHandler _tokenHandler;
@@ -45,9 +46,10 @@ namespace Forage.Service.Services.Implementations
         private readonly IMapper _mapper;
         private readonly IWebHostEnvironment _evn;
         readonly IConfiguration _configuration;
-        public IdentityUserService(IInternRepository internRepository ,UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ITokenHandler tokenHandler, IAuthService authService, IConfiguration configuration, RoleManager<IdentityRole> roleManager, IHttpContextAccessor http, ICompanyService companyService, IMapper mapper, IWebHostEnvironment evn)
+        public IdentityUserService(IInternRepository internRepository, ICompanyRepository companyRepository ,UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ITokenHandler tokenHandler, IAuthService authService, IConfiguration configuration, RoleManager<IdentityRole> roleManager, IHttpContextAccessor http, ICompanyService companyService, IMapper mapper, IWebHostEnvironment evn)
         {
             _internRepository = internRepository;
+            _companyRepository = companyRepository;
             _userManager = userManager;
             _signInManager = signInManager;
             _tokenHandler = tokenHandler;
@@ -66,16 +68,36 @@ namespace Forage.Service.Services.Implementations
             AppUser? appUser = default;
             if (!string.IsNullOrWhiteSpace(userName))
             {
-                appUser = await _userManager.FindByNameAsync(userName);
+                appUser = await _userManager.Users
+                    .Include(u => u.Interns)
+                    .Include(u => u.Companies)
+                    .FirstOrDefaultAsync(u => u.UserName == userName);
 
                 if (appUser != null)
                 {
-                    return new ApiResponse{ StatusCode = 200, items = appUser };
+                    return new ApiResponse { StatusCode = 200, items = appUser };
                 }
             }
 
-            return new ApiResponse { StatusCode = 403  };
+            return new ApiResponse { StatusCode = 403 };
         }
+
+        //public async Task<ApiResponse> GetCurrentUser()
+        //{
+        //    var userName = _http.HttpContext?.User.Identity.Name;
+        //    AppUser? appUser = default;
+        //    if (!string.IsNullOrWhiteSpace(userName))
+        //    {
+        //        appUser = await _userManager.FindByNameAsync(userName);
+
+        //        if (appUser != null)
+        //        {
+        //            return new ApiResponse { StatusCode = 200, items = appUser };
+        //        }
+        //    }
+
+        //    return new ApiResponse { StatusCode = 403 };
+        //}
 
         public async Task<object> UpdateUser(UpdateDto dto)
         {
@@ -126,6 +148,7 @@ namespace Forage.Service.Services.Implementations
             user = new AppUser()
             {
                 Id = Guid.NewGuid().ToString(),
+                NumericId = AppUserManager.GetNextNumericId(),
                 Email = registerDto.Email,
                 UserName = registerDto.Username,
                 PhoneNumber = registerDto.PhoneNumber,
@@ -145,6 +168,30 @@ namespace Forage.Service.Services.Implementations
             }
             await _userManager.AddToRoleAsync(user, role);
             user = await _userManager.FindByEmailAsync(registerDto.Email);
+
+            var company = new Company
+            {
+                AppUserId = user.Id,
+                Name = registerDto.CompanyName,
+                LegalAddress = registerDto.LegalAddress,
+                ActualAddress = registerDto.ActualAddress,
+                PhoneNumber = registerDto.PhoneNumber,
+                CompanyIndustryFieldId = registerDto.CompanyIndustryFieldId,
+                ContactPersonName = registerDto.ResponsiblePersonAndPosition,
+                Logo = "",
+                LogoUrl = "",
+            };
+
+            if (user.Companies == null)
+            {
+                user.Companies = new List<Company>();
+            }
+
+            user.Companies.Add(company);
+
+            await _companyRepository.AddAsync(company);
+            await _companyRepository.SaveAsync();
+
             return new()
             {
                 UserId = user.Id.ToString(),
@@ -214,6 +261,13 @@ namespace Forage.Service.Services.Implementations
                 Image = "",
                 ImageUrl = ""
             };
+
+            if (user.Interns == null)
+            {
+                user.Interns = new List<Intern>();
+            }
+
+            user.Interns.Add(intern);
 
             await _internRepository.AddAsync(intern);
             await _internRepository.SaveAsync();

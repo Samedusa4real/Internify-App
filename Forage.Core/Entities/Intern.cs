@@ -22,6 +22,7 @@ namespace Forage.Core.Entities
         public string FinNumber { get; set; }
         public string ImageUrl { get; set; }
         public string CvFileName { get; set; }
+        public List<Course>? Courses { get; set; }
         public AppUser AppUser { get; set; }
     }
 }

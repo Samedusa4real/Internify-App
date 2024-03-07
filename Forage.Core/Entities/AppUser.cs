@@ -9,6 +9,7 @@ namespace Forage.Core.Entities
 {
     public class AppUser:IdentityUser
     {
+        public int NumericId { get; set; }
         public string RefreshToken { get; set; } = string.Empty;
         public DateTime RefreshTokenExpirationDate { get; set; }
         public string Role { get; set;}

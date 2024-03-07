@@ -13,10 +13,8 @@ namespace Forage.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Intern> builder)
         {
-            builder.Property(x => x.Name).IsRequired()
-                .HasMaxLength(30);
-            builder.Property(x => x.Surname).IsRequired()
-            .HasMaxLength(30);
+            builder.Property(x => x.Name).IsRequired();
+            builder.Property(x => x.Surname).IsRequired();
             builder.Property(x => x.BirthYear).IsRequired();
             builder.Property(x => x.AppUserId).IsRequired();
             builder.Property(x => x.Image).IsRequired();
