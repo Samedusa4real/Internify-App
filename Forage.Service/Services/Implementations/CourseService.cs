@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Reflection.Metadata;
 using System.Text;
@@ -76,12 +77,18 @@ namespace Forage.Service.Services.Implementations
             };
         }
 
-        public async Task<ApiResponse> GetAllAsync()
+        public async Task<ApiResponse> GetAllAsync(int? companyId = null, int? internId = null, int? courseCategoryId = null, int? courseLevelId = null)
         {
-            IEnumerable<Course> Companies = await _repository.GetAllAsync(x => !x.IsDeleted, "CourseLevel", "Company");
+            IEnumerable<Course> courses = await _repository
+                                                .GetAllAsync(x => (!companyId.HasValue || x.CompanyId == companyId) &&
+                                                                  (!internId.HasValue || x.InternId == internId)    &&
+                                                                  (!courseCategoryId.HasValue || x.CourseCategoryId == courseCategoryId) &&
+                                                                  (!courseLevelId.HasValue || x.CourseLevelId == courseLevelId) &&
+                                                                   !x.IsDeleted, "CourseLevel", "Company");
+
             return new ApiResponse
             {
-                items = Companies,
+                items = courses,
                 StatusCode = 200
             };
         }

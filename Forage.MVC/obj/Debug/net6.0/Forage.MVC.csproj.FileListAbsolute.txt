@@ -1088,3 +1088,14 @@ C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\obj\Debug\net6.0\refint\Forag
 C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\obj\Debug\net6.0\Forage.MVC.pdb
 C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\obj\Debug\net6.0\Forage.MVC.genruntimeconfig.cache
 C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\obj\Debug\net6.0\ref\Forage.MVC.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Debug\net6.0\LinqKit.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Debug\net6.0\LinqKit.Core.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

@@ -8,9 +8,13 @@ C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\AutoMapper.Collection.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\BouncyCastle.Cryptography.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\EntityFramework.SqlServer.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\EntityFramework.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\FluentValidation.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\FluentValidation.AspNetCore.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\LinqKit.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\LinqKit.Core.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\MailKit.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -39,7 +43,9 @@ C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\System.CodeDom.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\System.Data.SqlClient.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\System.Drawing.Common.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\System.Formats.Asn1.dll
@@ -57,6 +63,11 @@ C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
