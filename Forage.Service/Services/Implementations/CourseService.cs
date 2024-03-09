@@ -77,14 +77,15 @@ namespace Forage.Service.Services.Implementations
             };
         }
 
-        public async Task<ApiResponse> GetAllAsync(int? companyId = null, int? internId = null, int? courseCategoryId = null, int? courseLevelId = null)
+        public async Task<ApiResponse> GetAllAsync(int? companyId = null, int? internId = null, int? courseCategoryId = null, int? courseLevelId = null, string? courseName = null)
         {
             IEnumerable<Course> courses = await _repository
                                                 .GetAllAsync(x => (!companyId.HasValue || x.CompanyId == companyId) &&
-                                                                  (!internId.HasValue || x.InternId == internId)    &&
+                                                                  (x.InternCourses.Any(x => !internId.HasValue || x.InternId == internId))    &&
                                                                   (!courseCategoryId.HasValue || x.CourseCategoryId == courseCategoryId) &&
                                                                   (!courseLevelId.HasValue || x.CourseLevelId == courseLevelId) &&
-                                                                   !x.IsDeleted, "CourseLevel", "Company");
+                                                                  (courseName == null || x.Name.Contains(courseName)) &&
+                                                                   !x.IsDeleted, "CourseLevel", "Company", "InternCourses.Intern");
 
             return new ApiResponse
             {

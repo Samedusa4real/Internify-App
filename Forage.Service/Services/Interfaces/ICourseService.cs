@@ -12,7 +12,7 @@ namespace Forage.Service.Services.Interfaces
     {
         public Task<ApiResponse> CreateAsync(CoursePostDto dto);
         public Task<ApiResponse> GetAsync(int id);
-        public Task<ApiResponse> GetAllAsync(int? companyId = null, int? internId = null, int? courseCategoryId = null, int? courseLevelId = null);
+        public Task<ApiResponse> GetAllAsync(int? companyId = null, int? internId = null, int? courseCategoryId = null, int? courseLevelId = null, string? courseName = null);
         public Task<ApiResponse> UpdateAsync(int id, CourseUpdateDto dto);
         public Task<ApiResponse> RemoveAsync(int id);
     }

@@ -1,4 +1,5 @@
-﻿using Forage.Service.Dtos.Interns;
+﻿using Forage.Service.Dtos.InternCourses;
+using Forage.Service.Dtos.Interns;
 using Forage.Service.Responses;
 using System;
 using System.Collections.Generic;
@@ -16,5 +17,8 @@ namespace Forage.Service.Services.Interfaces
 		public Task<ApiResponse> GetDetailAsync(int id);
 		public Task<ApiResponse> UpdateAsync(int id, InternUpdateDto dto);
         public Task<ApiResponse> RemoveAsync(int id);
+        public Task<ApiResponse> AddCourseToInternAsync(InternCoursePostDto dto);
+        public Task<ApiResponse> DeleteCourseFromInternAsync(int internId, int courseId);
+
     }
 }

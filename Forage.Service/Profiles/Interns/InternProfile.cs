@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Forage.Core.Entities;
 using Forage.Service.Dtos.Accounts;
+using Forage.Service.Dtos.InternCourses;
 using Forage.Service.Dtos.Interns;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,8 @@ namespace Forage.Service.Profiles.Interns
             CreateMap<InternPostDto, Intern>();
             CreateMap<InternUpdateDto, Intern>();
             CreateMap<Intern, InternUpdateDto>();
+
+            CreateMap<InternCoursePostDto, CourseIntern>();
         }
     }
 }

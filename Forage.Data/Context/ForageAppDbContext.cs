@@ -35,6 +35,7 @@ namespace Forage.Data.Context
         public DbSet<Setting> Settings { get; set; }
         public DbSet<Partner> Partners { get; set; }
         public DbSet<PrivacyNotice> PrivacyNotices { get; set; }
+        public DbSet<CourseIntern> CourseInterns { get; set; }
 
         public ForageAppDbContext(DbContextOptions<ForageAppDbContext> options) : base(options)
         {
@@ -58,6 +59,7 @@ namespace Forage.Data.Context
             modelBuilder.ApplyConfiguration(new SettingConfiguration());
 			modelBuilder.ApplyConfiguration(new PartnerConfiguration());
             modelBuilder.ApplyConfiguration(new PrivacyNoticeConfiguration());
+            modelBuilder.ApplyConfiguration(new CourseInternConfiguration());
             base.OnModelCreating(modelBuilder);
         }
     }

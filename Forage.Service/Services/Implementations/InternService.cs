@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
 using Forage.Core.Entities;
 using Forage.Core.Repositories;
+using Forage.Data.Context;
 using Forage.Service.Dtos.Courses;
+using Forage.Service.Dtos.InternCourses;
 using Forage.Service.Dtos.Interns;
 using Forage.Service.Extensions;
 using Forage.Service.Responses;
@@ -9,6 +11,7 @@ using Forage.Service.Services.Interfaces;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,17 +25,56 @@ namespace Forage.Service.Services.Implementations
     public class InternService : IInternService
     {
         private readonly IInternRepository _repository;
+        private readonly ICourseRepository _courseRepository;
+        private readonly IInternCourseRepository _internCourseRepository;
         private readonly IMapper _mapper;
         private readonly IWebHostEnvironment _evn;
         private readonly IHttpContextAccessor _http;
+        private readonly ForageAppDbContext _context;
 
-        public InternService(IInternRepository repository, IMapper mapper, IWebHostEnvironment evn, IHttpContextAccessor http)
+        public InternService(IInternRepository repository, ICourseRepository courseRepository, IInternCourseRepository internCourseRepository , IMapper mapper, IWebHostEnvironment evn, IHttpContextAccessor http, ForageAppDbContext context)
         {
             _repository = repository;
+            _courseRepository = courseRepository;
+            _internCourseRepository = internCourseRepository;
             _mapper = mapper;
             _evn = evn;
             _http = http;
+            _context = context;
         }
+
+        public async Task<ApiResponse> AddCourseToInternAsync(InternCoursePostDto dto)
+        {
+            var existingInternCourse = await _internCourseRepository.isExsist(x => x.InternId == dto.InternId && x.CourseId == dto.CourseId);
+
+            if (!existingInternCourse)
+            {
+                CourseIntern InternCourse = _mapper.Map<CourseIntern>(dto);
+
+                await _internCourseRepository.AddAsync(InternCourse);
+                await _internCourseRepository.SaveAsync();
+                return new ApiResponse { StatusCode = 200, Description = "Course added to Intern's courses list successfully" };
+            }
+
+            else
+                return new ApiResponse { StatusCode = 400, Description = "Already exist!" };
+        }
+
+        public async Task<ApiResponse> DeleteCourseFromInternAsync(int internId, int courseId)
+        {
+            CourseIntern CourseIntern = await _internCourseRepository.GetAsync(x=>x.InternId == internId && x.CourseId == courseId);
+
+            if (CourseIntern != null)
+            {
+                _context.CourseInterns.Remove(CourseIntern);
+                await _internCourseRepository.SaveAsync();
+                return new ApiResponse { StatusCode = 200, Description = "Course removed from Intern's courses list successfully" };
+            }
+
+            else
+                return new ApiResponse { StatusCode = 400, Description = "Course not found in Intern's courses list" };
+        }
+
         public async Task<ApiResponse> CreateAsync(InternPostDto dto)
         {
             if (await _repository.isExsist(x => x.Name.Trim().ToLower() == dto.Name.Trim().ToLower()))
@@ -58,10 +100,11 @@ namespace Forage.Service.Services.Implementations
 
         public async Task<ApiResponse> GetAllAsync()
         {
-            IEnumerable<Intern> Companies = await _repository.GetAllAsync(x => !x.IsDeleted);
+            IEnumerable<Intern> Interns = await _repository.GetAllAsync(x => !x.IsDeleted, "InternCourses.Course");
+
             return new ApiResponse
             {
-                items = Companies,
+                items = Interns,
                 StatusCode = 200
             };
         }

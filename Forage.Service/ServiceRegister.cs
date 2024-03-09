@@ -94,6 +94,8 @@ namespace Forage.Service
 			services.AddScoped<ISettingService, SettingService>();
             services.AddScoped<IPrivacyNoticeRepository, PrivacyNoticeRepository>();
             services.AddScoped<IPrivacyNoticeService, PrivacyNoticeService>();
+            services.AddScoped<IInternCourseRepository, InternCourseRepository>();
+
 
             #endregion
         }

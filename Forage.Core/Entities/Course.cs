@@ -22,12 +22,11 @@ namespace Forage.Core.Entities
         public int CompanyId { get; set; }
         public int CourseCategoryId { get; set; }
         public int CourseLevelId { get; set; }
-        public int? InternId { get; set; }
-        public Intern Intern { get; set; }
         public Company Company { get; set; }
         public CourseCategory CourseCategory { get; set; }
         public CourseLevel CourseLevel { get; set; }
         public List<CourseSkill>? CourseSkills { get; set; }
         public List<CourseLesson>? CourseLessons { get;set; }
+        public List<CourseIntern>? InternCourses { get; set; }
     }
 }

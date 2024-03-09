@@ -1,4 +1,5 @@
-﻿using Forage.Service.Dtos.Interns;
+﻿using Forage.Service.Dtos.InternCourses;
+using Forage.Service.Dtos.Interns;
 using Forage.Service.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -45,6 +46,18 @@ namespace Forage.App.Controllers
         public async Task<IActionResult> Update(int id, [FromForm] InternUpdateDto dto)
         {
             var result = await _service.UpdateAsync(id, dto);
+            return StatusCode(result.StatusCode, result);
+        }
+        [HttpPost("addCourseToIntern")]
+        public async Task<IActionResult> AddCourseToIntern (InternCoursePostDto dto)
+        {
+            var result = await _service.AddCourseToInternAsync(dto);
+            return StatusCode(result.StatusCode, result);
+        }
+        [HttpDelete("deleteCourseFromIntern")]
+        public async Task<IActionResult> DeleteCourseFromIntern(int internId, int courseId)
+        {
+            var result = await _service.DeleteCourseFromInternAsync(internId, courseId);
             return StatusCode(result.StatusCode, result);
         }
     }
