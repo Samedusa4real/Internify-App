@@ -39,9 +39,6 @@ namespace Forage.Service.Validations.Interns
                    }
 
                });
-            RuleFor(x => x.AppUserId)
-  .NotEmpty()
-  .NotNull();
         }
     }
 }

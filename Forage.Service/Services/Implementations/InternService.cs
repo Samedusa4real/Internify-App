@@ -187,14 +187,19 @@ namespace Forage.Service.Services.Implementations
             }
             if (dto.file is not null)
             {
-                Intern.Image = dto.file.CreateImage(_evn.WebRootPath, "/Images/Interns");
+                Intern.Image = dto.file.CreateImage(_evn.WebRootPath, "Images/Interns");
                 Intern.ImageUrl = _http.HttpContext?.Request.Scheme + "://" + _http.HttpContext?.Request.Host
                     + $"Images/Interns/{Intern.Image}";
             }
             Intern.UpdatedAt = DateTime.UtcNow.AddHours(4);
             Intern.Name = dto.Name;
             Intern.Surname = dto.Surname;
-            Intern.BirthYear = dto.BirthYear;
+            Intern.Gender = dto.Gender;
+            Intern.PhoneNumber = dto.PhoneNumber;
+            Intern.Email = dto.Email;
+            Intern.UniversityName = dto.UniversityName;
+            Intern.UniGraduationYear = dto.UniGraduationYear;
+            Intern.UniStartYear = dto.UniStartYear;
             await _repository.SaveAsync();
             return new ApiResponse
             {
