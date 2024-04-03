@@ -18,8 +18,7 @@ namespace Forage.Core.Entities
         public string? BirthYear { get; set; }
         public string AppUserId { get; set; }
         public string Image { get; set; }
-        public string Experience { get; set; }
-        public string FinNumber { get; set; }
+        public string? Experience { get; set; }
         public string ImageUrl { get; set; }
         public string CvFileName { get; set; }
         public string? PhoneNumber { get; set; }

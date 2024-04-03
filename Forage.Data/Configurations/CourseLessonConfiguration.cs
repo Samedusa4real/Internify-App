@@ -13,15 +13,14 @@ namespace Forage.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<CourseLesson> builder)
         {
-            builder.Property(x => x.Name).IsRequired()
-                .HasMaxLength(40);
-            builder.Property(x => x.CourseDuration).IsRequired();
-            builder.Property(x => x.Description).IsRequired();
+            builder.Property(x => x.Name).HasMaxLength(40);
+            builder.Property(x => x.CourseDuration);
+            builder.Property(x => x.Description);
             builder.Property(x => x.Video).IsRequired();
             builder.Property(x => x.VideoUrl).IsRequired();
-            builder.Property(x => x.LessonLine).IsRequired();
-            builder.Property(x => x.CourseId).IsRequired();
-            builder.Property(x => x.CourseLessonLevelId).IsRequired();
+            builder.Property(x => x.LessonLine);
+            builder.Property(x => x.CourseId);
+            builder.Property(x => x.CourseLessonLevelId);
             builder.Property(x => x.CreatedAt)
               .HasDefaultValue(DateTime.UtcNow.AddHours(4));
         }

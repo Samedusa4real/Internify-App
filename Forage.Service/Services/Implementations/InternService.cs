@@ -98,9 +98,11 @@ namespace Forage.Service.Services.Implementations
             };
         }
 
-        public async Task<ApiResponse> GetAllAsync()
+        public async Task<ApiResponse> GetAllAsync(int? companyId = null)
         {
-            IEnumerable<Intern> Interns = await _repository.GetAllAsync(x => !x.IsDeleted, "InternCourses.Course");
+            IEnumerable<Intern> Interns = await _repository.GetAllAsync(x =>
+                (!companyId.HasValue || x.InternCourses.Any(ic => ic.Course.CompanyId == companyId)) &&
+                !x.IsDeleted, "InternCourses.Course");
 
             return new ApiResponse
             {

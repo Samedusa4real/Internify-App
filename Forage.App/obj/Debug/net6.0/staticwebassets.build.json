@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IewMoqa1sO2dwyXLkr/KPCafQqRaWsOeMfJVz4aY68E=",
+  "Hash": "LNRyxqQCJBU/AvNzqJat0362QHHXLOKsaaZw4h3FWzM=",
   "Source": "Forage.App",
   "BasePath": "_content/Forage.App",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\Img\\7065287_page-0001 1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\About\\8fc38bcd-7bb1-4cd4-9c16-a8be410e841bUPUCUZLUQ AKSESUAR (1).png",
+      "SourceId": "Forage.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\",
+      "BasePath": "_content/Forage.App",
+      "RelativePath": "Images/About/8fc38bcd-7bb1-4cd4-9c16-a8be410e841bUPUCUZLUQ AKSESUAR (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\About\\8fc38bcd-7bb1-4cd4-9c16-a8be410e841bUPUCUZLUQ AKSESUAR (1).png"
     },
     {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\Companies\\04528d43-6c14-441f-8019-3e5d189c66b3codeacademy.webp",
@@ -933,6 +950,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Videos\\CourseLessons\\61102133-a116-4226-b727-3f60d578fb2f20230922_131626.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Videos\\CourseLessons\\924a77ef-1fec-4f9f-aeaf-9552a58846f320230922_131738.mp4",
+      "SourceId": "Forage.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\",
+      "BasePath": "_content/Forage.App",
+      "RelativePath": "Videos/CourseLessons/924a77ef-1fec-4f9f-aeaf-9552a58846f320230922_131738.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\CourseLessons\\924a77ef-1fec-4f9f-aeaf-9552a58846f320230922_131738.mp4"
     },
     {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Videos\\CourseLessons\\a1b1be7a-a3f9-4fc7-92b9-40f8b5460ceb20230922_131738.mp4",

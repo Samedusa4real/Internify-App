@@ -13,10 +13,8 @@ namespace Forage.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Question> builder)
         {
-            builder.Property(x => x.Title).IsRequired()
-                .HasMaxLength(40);
-            builder.Property(x => x.Text).IsRequired()
-            .HasMaxLength(300);
+            builder.Property(x => x.Title).IsRequired();
+            builder.Property(x => x.Text).IsRequired();
             builder.Property(x => x.CreatedAt)
               .HasDefaultValue(DateTime.UtcNow.AddHours(4));
         }

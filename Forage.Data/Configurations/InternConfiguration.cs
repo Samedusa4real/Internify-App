@@ -20,8 +20,9 @@ namespace Forage.Data.Configurations
             builder.Property(x => x.Image).IsRequired();
             builder.Property(x => x.ImageUrl).IsRequired();
             builder.Property(x => x.CvFileName).IsRequired();
-            builder.Property(x => x.FinNumber).IsRequired();
-            builder.Property(x => x.Experience).IsRequired();
+
+            builder.Property(x => x.Experience).IsRequired(false);
+
             builder.Property(x => x.CreatedAt)
               .HasDefaultValue(DateTime.UtcNow.AddHours(4));
         }

@@ -10,6 +10,9 @@ namespace Forage.Service.Dtos.Partners
 	public record PartnerUpdateDto
 	{
 		public string Name { get; set; }
-		public IFormFile? file { get; set; }
+        public string? LegalAddress { get; set; }
+        public string? ActualAddress { get; set; }
+        public string? PhoneNumber { get; set; }
+        public IFormFile? file { get; set; }
 	}
 }

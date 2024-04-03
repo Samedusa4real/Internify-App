@@ -111,14 +111,14 @@ app.UseSwaggerUI(c =>
 });
 
 //AREA LOCALDA ISLESIN DEYE
-//if (app.Environment.IsDevelopment())
-//{
-//    app.UseSwagger();
-//    app.UseSwaggerUI();
-//}
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.UseCors("Forage");
-app.UseHttpsRedirection();
+app.UseHttpsRedirection();                      
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

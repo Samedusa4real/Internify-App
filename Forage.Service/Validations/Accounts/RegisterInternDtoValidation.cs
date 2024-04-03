@@ -57,10 +57,7 @@ namespace Forage.Service.Validations.Accounts
                     }
                 });
 
-            RuleFor(x => x.FinNumber)
-                .NotEmpty().WithMessage("FinNumber is required")
-                .NotNull().WithMessage("FinNumber is required")
-                .Length(7).WithMessage("Wrong FinNumber");
+            RuleFor(x => x.Experience).Null();
         }
     }
 }

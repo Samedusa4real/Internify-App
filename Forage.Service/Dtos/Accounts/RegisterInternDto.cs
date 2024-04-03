@@ -19,7 +19,6 @@ namespace Forage.Service.Dtos.Accounts
         public string BirthYear { get; set; }
         public string Experience { get; set; }
         public string FieldsOfLaw { get; set; }
-        public string FinNumber { get; set; }
         public IFormFile Image { get; set; }
         public string? role { get; set; }
     }

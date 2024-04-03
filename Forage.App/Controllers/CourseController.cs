@@ -16,9 +16,9 @@ namespace Forage.App.Controllers
             _service = service;
         }
         [HttpGet]
-        public async Task<IActionResult> GetAll([FromQuery] int? companyId = null, [FromQuery] int? internId = null, [FromQuery] int? courseCategoryId = null, [FromQuery] int? courseLevelId = null, [FromQuery] string? courseName = null)
+        public async Task<IActionResult> GetAll([FromQuery] int? companyId = null, [FromQuery] int? internId = null, [FromQuery] int? courseCategoryId = null, [FromQuery] int? courseLevelId = null, [FromQuery] string? courseName = null, [FromQuery] List<int>? skillIds = null)
         {
-            var result = await _service.GetAllAsync(companyId, internId, courseCategoryId, courseLevelId, courseName);
+            var result = await _service.GetAllAsync(companyId, internId, courseCategoryId, courseLevelId, courseName, skillIds);
             return StatusCode(result.StatusCode, result);
         }
         [HttpGet("{id}")]

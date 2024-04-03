@@ -28,6 +28,7 @@
     <Folder Include="wwwroot\Images\Companies\" />
     <Folder Include="wwwroot\Images\Courses\" />
     <Folder Include="wwwroot\Images\Interns\Cvs\" />
+    <Folder Include="wwwroot\Images\About\" />
     <Folder Include="wwwroot\Images\Partners\" />
     <Folder Include="wwwroot\Images\Settings\" />
     <Folder Include="wwwroot\Videos\Courses\" />

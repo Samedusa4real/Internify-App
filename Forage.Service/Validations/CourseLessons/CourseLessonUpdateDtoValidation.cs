@@ -14,18 +14,12 @@ namespace Forage.Service.Validations.Courses
         public CourseLessonUpdateDtoValidation()
         {
             RuleFor(x => x.Name)
-                  .NotEmpty()
-                  .NotNull().WithMessage("Name can not be null")
                   .MinimumLength(3)
                   .MaximumLength(50);
             RuleFor(x => x.CourseDuration)
-                  .NotEmpty()
-                  .NotNull()
                   .MinimumLength(3)
                   .MaximumLength(50);
             RuleFor(x => x.Description)
-                  .NotEmpty()
-                  .NotNull()
                   .MinimumLength(200)
                   .MaximumLength(500);
             RuleFor(x => x)
@@ -43,15 +37,9 @@ namespace Forage.Service.Validations.Courses
                           }
                       }
                   });
-            RuleFor(x => x.LessonLine)
-                .NotEmpty()
-                .NotNull();
-            RuleFor(x => x.CourseId)
-              .NotEmpty()
-              .NotNull();
-            RuleFor(x => x.CourseLessonLevelId)
-                .NotEmpty()
-                .NotNull();
+            RuleFor(x => x.LessonLine);
+            RuleFor(x => x.CourseId);
+            RuleFor(x => x.CourseLessonLevelId);
         }
     }
 }

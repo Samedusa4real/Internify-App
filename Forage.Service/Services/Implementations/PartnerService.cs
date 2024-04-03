@@ -132,6 +132,9 @@ namespace Forage.Service.Services.Implementations
 			}
 			Partner.UpdatedAt = DateTime.UtcNow.AddHours(4);
             Partner.Name = dto.Name;
+            Partner.ActualAddress = dto.ActualAddress;
+            Partner.LegalAddress = dto.LegalAddress;
+            Partner.PhoneNumber = dto.PhoneNumber;
             await _repository.SaveAsync();
             return new ApiResponse
             {

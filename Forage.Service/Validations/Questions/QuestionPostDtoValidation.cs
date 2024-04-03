@@ -15,14 +15,10 @@ namespace Forage.Service.Validations.Questions
         {
             RuleFor(x => x.Title)
             .NotEmpty()
-            .NotNull().WithMessage("Title can not be null")
-            .MinimumLength(3)
-            .MaximumLength(40);
+            .NotNull().WithMessage("Title can not be null");
             RuleFor(x => x.Text)
                   .NotEmpty()
-            .NotNull().WithMessage("Text can not be null")
-            .MinimumLength(3)
-            .MaximumLength(300);
+            .NotNull().WithMessage("Text can not be null");
         }
     }
 }

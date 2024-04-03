@@ -77,15 +77,17 @@ namespace Forage.Service.Services.Implementations
             };
         }
 
-        public async Task<ApiResponse> GetAllAsync(int? companyId = null, int? internId = null, int? courseCategoryId = null, int? courseLevelId = null, string? courseName = null)
+        
+        public async Task<ApiResponse> GetAllAsync(int? companyId = null, int? internId = null, int? courseCategoryId = null, int? courseLevelId = null, string? courseName = null, List<int>? skillIds = null)
         {
             IEnumerable<Course> courses = await _repository
-                                                .GetAllAsync(x => (!companyId.HasValue || x.CompanyId == companyId) &&
-                                                                  (x.InternCourses.Any(x => !internId.HasValue || x.InternId == internId))    &&
-                                                                  (!courseCategoryId.HasValue || x.CourseCategoryId == courseCategoryId) &&
-                                                                  (!courseLevelId.HasValue || x.CourseLevelId == courseLevelId) &&
-                                                                  (courseName == null || x.Name.Contains(courseName)) &&
-                                                                   !x.IsDeleted, "CourseLevel", "Company", "InternCourses.Intern");
+                                            .GetAllAsync(x => (!companyId.HasValue || x.CompanyId == companyId) &&
+                                                            (!internId.HasValue || x.InternCourses.Any(ic => ic.InternId == internId)) &&
+                                                            (!courseCategoryId.HasValue || x.CourseCategoryId == courseCategoryId) &&
+                                                            (!courseLevelId.HasValue || x.CourseLevelId == courseLevelId) &&
+                                                            (courseName == null || x.Name.Contains(courseName)) &&
+                                                            (!skillIds.Any() || x.CourseSkills.Any(cs => skillIds.Contains(cs.SkillId))) &&
+                                                            !x.IsDeleted, "CourseLevel", "Company", "InternCourses.Intern", "CourseSkills.Skill", "CourseLessons");
 
             return new ApiResponse
             {

@@ -255,7 +255,6 @@ namespace Forage.Service.Services.Implementations
                 Name = registerDto.FullName,
                 Surname = registerDto.FullName,
                 BirthYear = registerDto.BirthYear,
-                FinNumber = registerDto.FinNumber,
                 Experience = registerDto.Experience,
                 CvFileName = imageName,
                 Image = "",
