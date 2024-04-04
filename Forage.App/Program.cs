@@ -8,8 +8,14 @@ using Forage.Data.Context;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Forage.Service.Services.Implementations;
+using System.Reflection;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddScope(builder.Configuration);
 builder.Services.AddEndpointsApiExplorer();
 
@@ -120,6 +126,8 @@ if (app.Environment.IsDevelopment())
 app.UseCors("Forage");
 app.UseHttpsRedirection();                      
 app.UseAuthentication();
+
+
 app.UseAuthorization();
 app.MapControllers();
 

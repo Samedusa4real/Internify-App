@@ -46,9 +46,6 @@ namespace Forage.Service.Services.Implementations
             Course.AboutImage = dto.AboutImage.CreateImage(_evn.WebRootPath, "Images/Courses");
             Course.AboutImageUrl = _http.HttpContext?.Request.Scheme + "://" + _http.HttpContext?.Request.Host
                 + $"/Images/Courses/{Course.AboutImage}";
-            Course.AboutVideo = dto.AboutVideo.CreateImage(_evn.WebRootPath, "Videos/Courses");
-            Course.AboutVideoUrl = _http.HttpContext?.Request.Scheme + "://" + _http.HttpContext?.Request.Host
-                + $"/Videos/Courses/{Course.AboutVideo}";
             foreach (var item in dto.SkillIds)
             {
                 if (!await _skillRepository.isExsist(x => x.Id == item))
@@ -155,12 +152,6 @@ namespace Forage.Service.Services.Implementations
                 Course.AboutImage = dto.file.CreateImage(_evn.WebRootPath, "Images/Courses");
                 Course.AboutImageUrl = _http.HttpContext?.Request.Scheme + "://" + _http.HttpContext?.Request.Host
                     + $"Images/Courses/{Course.AboutImage}";
-            }
-            if (dto.video is not null)
-            {
-                Course.AboutVideo = dto.video.CreateImage(_evn.WebRootPath, "Videos/Courses");
-                Course.AboutVideoUrl = _http.HttpContext?.Request.Scheme + "://" + _http.HttpContext?.Request.Host
-                    + $"Videos/Courses/{Course.AboutVideo}";
             }
             List<CourseSkill> RemoveableSkill = await _context.CourseSkills.
               Where(x => !dto.SkillIds.Contains(x.SkillId) && x.CourseId == Course.Id).ToListAsync();

@@ -29,11 +29,6 @@ namespace Forage.Service.Validations.Courses
                   .NotNull()
                   .MinimumLength(200)
                   .MaximumLength(500);
-            RuleFor(x => x.ShortInfo)
-             .NotEmpty()
-             .NotNull()
-             .MinimumLength(50)
-             .MaximumLength(100);
             RuleFor(x => x.Language)
              .NotEmpty()
              .NotNull();
@@ -52,21 +47,6 @@ namespace Forage.Service.Validations.Courses
                     }
                }
 			   });
-            RuleFor(x => x)
-                  .Custom((x, context) =>
-               {
-                   if (x.AboutVideo != null)
-                   {
-                    if (!Helper.isVideo(x.AboutVideo))
-                    {
-                        context.AddFailure("file", "The type of file must be video");
-                    }
-                    if (!Helper.isSizeOk(x.AboutVideo, 20))
-                    {
-                        context.AddFailure("file", "The size of video less than 20 mb");
-                    }
-               }
-              });
             RuleFor(x => x.CourseLevelId)
                 .NotEmpty()
                 .NotNull();

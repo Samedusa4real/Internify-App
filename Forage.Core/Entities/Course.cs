@@ -14,10 +14,7 @@ namespace Forage.Core.Entities
         public string About { get; set; }
         public string AboutImage { get; set; }
         public string AboutImageUrl { get; set; }
-        public string AboutVideo { get; set; }
-        public string AboutVideoUrl { get; set; }
         public string Language { get; set; }
-        public string ShortInfo { get; set; }
         public bool IsActive { get; set; }
         public int CompanyId { get; set; }
         public int CourseCategoryId { get; set; }

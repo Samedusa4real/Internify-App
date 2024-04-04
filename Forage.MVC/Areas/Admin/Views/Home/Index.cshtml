@@ -15,6 +15,10 @@
                                     your profile.
                                 </p>
 
+                                <a asp-action="ChangeLanguage" asp-controller="Home" asp-route-culture="tr-TR">Azerbaycanca</a>
+                                <a asp-action="ChangeLanguage" asp-controller="Home" asp-route-culture="en-US">Ingilizce</a>
+                                @ViewBag.Meselen
+
                                 <a href="javascript:;" class="btn btn-sm btn-outline-primary">View Badges</a>
                             </div>
                         </div>
@@ -510,4 +514,7 @@
         </div>
     </div>
     <!-- / Content -->
+
+
+
 

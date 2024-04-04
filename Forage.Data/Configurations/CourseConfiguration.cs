@@ -19,14 +19,10 @@ namespace Forage.Data.Configurations
                .HasMaxLength(50);
             builder.Property(x => x.About).IsRequired()
                .HasMaxLength(500);
-            builder.Property(x => x.ShortInfo).IsRequired()
-              .HasMaxLength(200);
             builder.Property(x => x.Language).IsRequired();
             builder.Property(x => x.AboutImage).IsRequired();
             builder.Property(x => x.IsActive).HasDefaultValue(true);
-            builder.Property(x => x.AboutVideo).IsRequired();
             builder.Property(x => x.AboutImageUrl).IsRequired();
-            builder.Property(x => x.AboutVideoUrl).IsRequired();
             builder.Property(x => x.CompanyId).IsRequired();
             builder.Property(x => x.CourseCategoryId).IsRequired();
             builder.Property(x => x.CourseLevelId).IsRequired();

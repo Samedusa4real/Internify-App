@@ -925,6 +925,14 @@
         },
         "runtime": {
           "Forage.Service.dll": {}
+        },
+        "resources": {
+          "az-AZ/Forage.Service.resources.dll": {
+            "locale": "az-AZ"
+          },
+          "en-US/Forage.Service.resources.dll": {
+            "locale": "en-US"
+          }
         }
       }
     }
