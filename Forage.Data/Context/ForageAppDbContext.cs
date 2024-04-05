@@ -38,6 +38,8 @@ namespace Forage.Data.Context
         public DbSet<CourseIntern> CourseInterns { get; set; }
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<About> Abouts { get; set; }
+        public DbSet<Language> Languages { get; set; }
+        public DbSet<AboutLanguage> AboutLanguages { get; set; }
 
         public ForageAppDbContext(DbContextOptions<ForageAppDbContext> options) : base(options)
         {
@@ -64,6 +66,8 @@ namespace Forage.Data.Context
             modelBuilder.ApplyConfiguration(new CourseInternConfiguration());
             modelBuilder.ApplyConfiguration(new ContactConfiguration());
             modelBuilder.ApplyConfiguration(new AboutConfiguration());
+            modelBuilder.ApplyConfiguration(new LanguageConfiguration());
+            modelBuilder.ApplyConfiguration(new AboutLanguageConfiguration());
             base.OnModelCreating(modelBuilder);
         }
     }

@@ -14,3 +14,4 @@ namespace Forage.Core.Entities
         public string Message { get; set; }
     }
 }
+    

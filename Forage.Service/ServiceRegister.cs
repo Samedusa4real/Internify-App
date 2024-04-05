@@ -99,6 +99,10 @@ namespace Forage.Service
             services.AddScoped<IContactService, ContactService>();
             services.AddScoped<IAboutUsRepository, AboutUsRepository>();
             services.AddScoped<IAboutService, AboutService>();
+            services.AddScoped<IAboutLanguageRepository, AboutLanguageRepository>();
+            services.AddScoped<IAboutLanguageService, AboutLanguageService>();
+            services.AddScoped<ILanguageRepository, LanguageRepository>();
+            services.AddScoped<ILanguageService, LangService>();
 
             #endregion
         }

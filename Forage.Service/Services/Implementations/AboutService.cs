@@ -114,20 +114,6 @@ namespace Forage.Service.Services.Implementations
                     + $"Images/About/{About.Image}";
             }
 
-            About.UpdatedAt = DateTime.UtcNow.AddHours(4);
-            About.SmallHeader = dto.SmallHeader;
-            About.MainHeader = dto.MainHeader;
-            About.MainText = dto.MainText;
-            About.SecondHeader = dto.SecondHeader;
-            About.FirstStratText = dto.FirstStratText;
-            About.FirstStratHeader = dto.FirstStratHeader;
-            About.SecondStratText = dto.SecondStratText;
-            About.SecondStratHeader = dto.SecondStratHeader;
-            About.ThirdStratText = dto.ThirdStratText;
-            About.ThirdStratHeader = dto.ThirdStratHeader;
-            About.FourthStratText = dto.FourthStratText;
-            About.FourthStratHeader = dto.FourthStratHeader;
-
             await _repository.SaveAsync();
             return new ApiResponse
             {

@@ -13,20 +13,8 @@ namespace Forage.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<About> builder)
         {
-            builder.Property(x => x.SmallHeader).IsRequired();
-            builder.Property(x => x.MainHeader).IsRequired();
-            builder.Property(x => x.MainText).IsRequired();
             builder.Property(x => x.Image).IsRequired();
             builder.Property(x => x.ImageUrl).IsRequired();
-            builder.Property(x => x.SecondHeader).IsRequired();
-            builder.Property(x => x.FirstStratText).IsRequired();
-            builder.Property(x => x.FirstStratHeader).IsRequired();
-            builder.Property(x => x.SecondStratText).IsRequired();
-            builder.Property(x => x.SecondStratHeader).IsRequired();
-            builder.Property(x => x.ThirdStratText).IsRequired();
-            builder.Property(x => x.ThirdStratHeader).IsRequired();
-            builder.Property(x => x.FourthStratText).IsRequired();
-            builder.Property(x => x.FourthStratHeader).IsRequired();
             builder.Property(x => x.CreatedAt)
               .HasDefaultValue(DateTime.UtcNow.AddHours(4));
         }

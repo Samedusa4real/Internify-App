@@ -4,18 +4,6 @@
         <thead>
             <tr>
                 <th scope="col">Id</th>
-                <th scope="col">SmallHeader:</th>
-                <th scope="col">MainHeader:</th>
-                <th scope="col">MainText:</th>
-                <th scope="col">SecondHeader:</th>
-                <th scope="col">FirstStratHeader:</th>
-                <th scope="col">FirstStratText:</th>
-                <th scope="col">SecondStratHeader:</th>
-                <th scope="col">SecondStratText:</th>
-                <th scope="col">ThirdStratHeader:</th>
-                <th scope="col">ThirdStratText:</th>
-                <th scope="col">FourthStratHeader:</th>
-                <th scope="col">FourthStratText:</th>
                 <th scope="col">Image:</th>
                 <th scope="col">Update</th>
                 <th scope="col">Delete</th>
@@ -26,18 +14,6 @@
             {
                 <tr>
                     <th scope="row">@item.Id</th>
-                    <th>@item.SmallHeader</th>
-                    <th>@item.MainHeader</th>
-                    <th>@item.MainText</th>
-                    <th>@item.SecondHeader</th>
-                    <th>@item.FirstStratHeader</th>
-                    <th>@item.FirstStratText</th>
-                    <th>@item.SecondStratHeader</th>
-                    <th>@item.SecondStratText</th>
-                    <th>@item.ThirdStratHeader</th>
-                    <th>@item.ThirdStratText</th>
-                    <th>@item.FourthStratHeader</th>
-                    <th>@item.FourthStratText</th>
                     <td><img src="~/Images/About/@item.Image" width="100px" style="object-fit: contain;" height="100px"></td>
                     <td>
                         <a asp-controller="About" asp-action="update" asp-route-id="@item.Id">
