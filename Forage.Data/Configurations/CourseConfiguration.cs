@@ -15,8 +15,7 @@ namespace Forage.Data.Configurations
         {
             builder.Property(x => x.Name).IsRequired()
                 .HasMaxLength(50);
-            builder.Property(x => x.CourseDuration).IsRequired()
-               .HasMaxLength(50);
+            builder.Property(x => x.CourseDuration).HasMaxLength(50);
             builder.Property(x => x.About).IsRequired()
                .HasMaxLength(500);
             builder.Property(x => x.Language).IsRequired();

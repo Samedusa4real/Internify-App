@@ -10,7 +10,7 @@ namespace Forage.Core.Entities
     public class Course:BaseEntitiy
     {
         public string Name { get; set; }
-        public string CourseDuration { get; set; }
+        public string? CourseDuration { get; set; }
         public string About { get; set; }
         public string AboutImage { get; set; }
         public string AboutImageUrl { get; set; }

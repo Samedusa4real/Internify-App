@@ -19,11 +19,6 @@ namespace Forage.Service.Validations.Courses
                   .NotNull().WithMessage("Name can not be null")
                   .MinimumLength(3)
                   .MaximumLength(50);
-            RuleFor(x => x.CourseDuration)
-                  .NotEmpty()
-                  .NotNull()
-                  .MinimumLength(3)
-                  .MaximumLength(50);
             RuleFor(x => x.About)
                   .NotEmpty()
                   .NotNull()
