@@ -14,18 +14,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Net.WebRequestMethods;
+using Forage.Data.Repositories;
 
 namespace Forage.Service.Services.Implementations
 {
     public class AboutService : IAboutService
     {
+        private readonly IAboutLanguageRepository _languageRepository;
         private readonly IAboutUsRepository _repository;
         private readonly IMapper _mapper;
         private readonly IWebHostEnvironment _evn;
         private readonly IHttpContextAccessor _http;
 
-        public AboutService(IAboutUsRepository repository, IMapper mapper, IWebHostEnvironment evn, IHttpContextAccessor http)
+        public AboutService(IAboutLanguageRepository languageRepository,IAboutUsRepository repository, IMapper mapper, IWebHostEnvironment evn, IHttpContextAccessor http)
         {
+            _languageRepository = languageRepository;
             _repository = repository;
             _mapper = mapper;
             _evn = evn;
@@ -33,23 +36,42 @@ namespace Forage.Service.Services.Implementations
         }
         public async Task<ApiResponse> CreateAsync(AboutPostDto dto)
         {
-            About About = _mapper.Map<About>(dto);
-            About.Image = dto.Image.CreateImage(_evn.WebRootPath, "Images/About");
-            About.ImageUrl = _http.HttpContext?.Request.Scheme + "://" + _http.HttpContext?.Request.Host
-                + $"Images/About/{About.Image}";
-            await _repository.AddAsync(About);
+            About about = new About
+            {
+                Image = dto.Image.CreateImage(_evn.WebRootPath, "Images/About"),
+                ImageUrl = _http.HttpContext?.Request.Scheme + "://" + _http.HttpContext?.Request.Host
+                + $"Images/About/{dto.Image.CreateImage(_evn.WebRootPath, "Images/About")}",
+                AboutLanguages = dto.AboutLanguages.Select(x => new AboutLanguage
+                {
+                    LanguageId = x.LanguageId,
+                    SmallHeader = x.SmallHeader,
+                    MainHeader = x.MainHeader,
+                    MainText = x.MainText,
+                    SecondHeader = x.SecondHeader,
+                    FirstStratHeader = x.FirstStratHeader,
+                    FirstStratText = x.FirstStratText,
+                    SecondStratHeader = x.SecondStratHeader,
+                    SecondStratText = x.SecondStratText,
+                    ThirdStratHeader = x.ThirdStratHeader,
+                    ThirdStratText = x.ThirdStratText,
+                    FourthStratHeader = x.FourthStratHeader,
+                    FourthStratText = x.FourthStratText,
+                }).ToList(),
+            };
+
+            await _repository.AddAsync(about);
             await _repository.SaveAsync();
 
             return new ApiResponse
             {
                 StatusCode = 201,
-                items = About
+                items = about
             };
         }
 
         public async Task<ApiResponse> GetAllAsync()
         {
-            IEnumerable<About> Abouts = await _repository.GetAllAsync(x => !x.IsDeleted);
+            IEnumerable<About> Abouts = await _repository.GetAllAsync(x => !x.IsDeleted, "AboutLanguages");
             return new ApiResponse
             {
                 items = Abouts,

@@ -11,5 +11,6 @@ namespace Forage.Core.Entities
     {
         public string? Image { get; set; }
         public string? ImageUrl { get; set; }
+        public List<AboutLanguage> AboutLanguages { get; set; }
     }
 }

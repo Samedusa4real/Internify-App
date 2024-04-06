@@ -11,7 +11,7 @@ namespace Forage.Service.Dtos.Courses
     public record CoursePostDto
     {
         public string Name { get; set; }
-        public string CourseDuration { get; set; }
+        public string? CourseDuration { get; set; }
         public string About { get; set; }
         public IFormFile AboutImage { get; set; }
         public int CompanyId { get; set; }
