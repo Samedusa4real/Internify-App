@@ -26,20 +26,34 @@ namespace Forage.Service.Services.Implementations
 
         public async Task<ApiResponse> CreateAsync(ContactPostDto dto)
         {
-            Contact Contact = _mapper.Map<Contact>(dto);
-            await _repository.AddAsync(Contact);
+            Contact contact = new Contact
+            {
+                FullName = dto.FullName,
+                Email = dto.Email,
+                Message = dto.Message,
+                ContactLanguages = dto.ContactLanguages.Select(x => new ContactLanguage
+                {
+                    LanguageId = x.LanguageId,
+                    ContactHeader = x.ContactHeader,
+                    ContactBody = x.ContactBody,
+                    ShortInfo = x.ShortInfo,
+                    SendButtonText = x.SendButtonText,
+                }).ToList(),
+            };
+
+            await _repository.AddAsync(contact);
             await _repository.SaveAsync();
 
             return new ApiResponse
             {
                 StatusCode = 201,
-                items = Contact
+                items = contact
             };
         }
 
         public async Task<ApiResponse> GetAllAsync()
         {
-            IEnumerable<Contact> Contacts = await _repository.GetAllAsync(x => !x.IsDeleted);
+            IEnumerable<Contact> Contacts = await _repository.GetAllAsync(x => !x.IsDeleted, "ContactLanguages");
             return new ApiResponse
             {
                 items = Contacts,
@@ -49,7 +63,7 @@ namespace Forage.Service.Services.Implementations
 
         public async Task<ApiResponse> GetAsync(int id)
         {
-            Contact? Contact = await _repository.GetAsync(x => x.Id == id && !x.IsDeleted);
+            Contact? Contact = await _repository.GetAsync(x => x.Id == id && !x.IsDeleted, "ContactLanguages");
             if (Contact == null)
             {
                 return new ApiResponse

@@ -26,21 +26,21 @@ namespace Forage.Service.Services.Implementations
         }
         public async Task<ApiResponse> CreateAsync(QuestionPostDto dto)
         {
-            if (await _repository.isExsist(x => x.Title.Trim().ToLower() == dto.Title.Trim().ToLower()))
+            Question question = new Question
             {
-                return new ApiResponse
+                QuestionLanguages = dto.QuestionLanguages.Select(x => new QuestionLanguage
                 {
-                    StatusCode = 400,
-                    Description = $"{dto.Title} Already exists"
-                };
-            }
-            Question Question = _mapper.Map<Question>(dto);
-            await _repository.AddAsync(Question);
+                    LanguageId = x.LanguageId,
+                    Title = x.Title,
+                    Text = x.Text,
+                }).ToList(),
+            };
+            await _repository.AddAsync(question);
             await _repository.SaveAsync();
             return new ApiResponse
             {
                 StatusCode = 201,
-                items = Question
+                items = question
             };
         }
 
@@ -94,8 +94,8 @@ namespace Forage.Service.Services.Implementations
 
         public async Task<ApiResponse> UpdateAsync(int id, QuestionUpdateDto dto)
         {
-            Question Question = await _repository.GetAsync(x => x.Id == id && !x.IsDeleted);
-            if (Question is null)
+            Question question = await _repository.GetAsync(x => x.Id == id && !x.IsDeleted);
+            if (question is null)
             {
                 return new ApiResponse
                 {
@@ -103,26 +103,22 @@ namespace Forage.Service.Services.Implementations
                     Description = "Not found"
                 };
             }
-            if (Question.Title.ToLower() != dto.Title.ToLower())
+
+            foreach (var lang in dto.QuestionLanguages)
             {
-                if (await _repository.isExsist(x => x.Title.Trim().ToLower() == dto.Title.Trim().ToLower()))
+                var existingLanguage = question.QuestionLanguages.FirstOrDefault(x => x.LanguageId == lang.LanguageId);
+                if (existingLanguage != null)
                 {
-                    return new ApiResponse
-                    {
-                        StatusCode = 400,
-                        Description = $"{dto.Title} Already exists"
-                    };
+                    existingLanguage.Title = lang.Title;
+                    existingLanguage.Text = lang.Text;
                 }
             }
-           
-            Question.UpdatedAt = DateTime.UtcNow.AddHours(4);
-            Question.Title = dto.Title;
-            Question.Text = dto.Text;
+
             await _repository.SaveAsync();
             return new ApiResponse
             {
                 StatusCode = 200,
-                items = Question
+                items = question
             };
         }
     }

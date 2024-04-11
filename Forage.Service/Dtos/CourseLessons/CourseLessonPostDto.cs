@@ -11,10 +11,8 @@ namespace Forage.Service.Dtos.CourseLessons
     public class CourseLessonPostDto
     {
         public string Name { get; set; }
-        public string CourseDuration { get; set; }
         public string Description { get; set; }
         public IFormFile Video { get; set; }
-        public int LessonLine { get; set; }
         public int CourseId { get; set; }
         public int CourseLessonLevelId { get; set; }
     }

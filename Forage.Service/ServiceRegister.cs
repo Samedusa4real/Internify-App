@@ -103,6 +103,7 @@ namespace Forage.Service
             services.AddScoped<IAboutLanguageService, AboutLanguageService>();
             services.AddScoped<ILanguageRepository, LanguageRepository>();
             services.AddScoped<ILanguageService, LangService>();
+            services.AddScoped<IInternCourseTestRepository, InternCourseTestRepository>();
 
             #endregion
         }

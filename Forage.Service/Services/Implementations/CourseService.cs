@@ -3,6 +3,7 @@ using Forage.Core.Entities;
 using Forage.Core.Repositories;
 using Forage.Data.Context;
 using Forage.Service.Dtos.Courses;
+using Forage.Service.Dtos.InternCourseTests;
 using Forage.Service.Extensions;
 using Forage.Service.Responses;
 using Forage.Service.Services.Interfaces;
@@ -23,6 +24,7 @@ namespace Forage.Service.Services.Implementations
 {
     public class CourseService : ICourseService
     {
+        private readonly IInternCourseTestRepository _internCourseTestRepository;
         private readonly ICourseRepository _repository;
         private readonly IMapper _mapper;
         private readonly IWebHostEnvironment _evn;
@@ -30,8 +32,9 @@ namespace Forage.Service.Services.Implementations
         private readonly ISkillRepository _skillRepository;
         private readonly ICourseSkillRepository _courseSkillRepository;
         private readonly ForageAppDbContext _context;
-        public CourseService(ICourseRepository repository, IMapper mapper, IWebHostEnvironment evn, IHttpContextAccessor http, ISkillRepository skillRepository, ICourseSkillRepository courseSkillRepository, ForageAppDbContext context)
+        public CourseService(IInternCourseTestRepository internCourseTestRepository ,ICourseRepository repository, IMapper mapper, IWebHostEnvironment evn, IHttpContextAccessor http, ISkillRepository skillRepository, ICourseSkillRepository courseSkillRepository, ForageAppDbContext context)
         {
+            _internCourseTestRepository = internCourseTestRepository;
             _repository = repository;
             _mapper = mapper;
             _evn = evn;
@@ -73,7 +76,6 @@ namespace Forage.Service.Services.Implementations
                 items = Course
             };
         }
-
         
         public async Task<ApiResponse> GetAllAsync(int? companyId = null, int? internId = null, int? courseCategoryId = null, int? courseLevelId = null, string? courseName = null, List<int>? skillIds = null)
         {
@@ -180,6 +182,39 @@ namespace Forage.Service.Services.Implementations
             {
                 StatusCode = 200,
                 items = Course
+            };
+        }
+
+        public async Task<ApiResponse> CreateLessonTestAsync(InternCourseTestPostDto dto)
+        {
+            InternCourseTest test = new InternCourseTest
+            {
+                Message = dto.Message,
+                CourseId = dto.CourseId,
+                CourseLessonId = dto.CourseLessonId,
+                InternId = dto.InternId,
+                TestFile = dto.TestFile.CreateImage(_evn.WebRootPath, "Files/InternLessonTest"),
+                TestFileUrl = _http.HttpContext?.Request.Scheme + "://" + _http.HttpContext?.Request.Host
+                + $"Files/InternLessonTest/{dto.TestFile.CreateImage(_evn.WebRootPath, "Files/InternLessonTest")}",
+            };
+
+            await _internCourseTestRepository.AddAsync(test);
+            await _internCourseTestRepository.SaveAsync();
+
+            return new ApiResponse
+            {
+                StatusCode = 201,
+                items = test
+            };
+        }
+
+        public async Task<ApiResponse> GetAllTestAsync()
+        {
+            IEnumerable<InternCourseTest> CourseTests = await _internCourseTestRepository.GetAllAsync(x => !x.IsDeleted);
+            return new ApiResponse
+            {
+                items = CourseTests,
+                StatusCode = 200
             };
         }
     }

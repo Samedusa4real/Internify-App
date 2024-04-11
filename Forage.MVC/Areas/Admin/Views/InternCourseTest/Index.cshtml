@@ -1,0 +1,36 @@
+﻿@model IEnumerable<InternCourseTest>
+<div class="container">
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Message:</th>
+                <th scope="col">Course Name:</th>
+                <th scope="col">Course LessonName:</th>
+                <th scope="col">Intern Name:</th>
+                <th scope="col">File:</th>
+                <th scope="col">Cavabi Sil</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <th>@item.Message</th>
+                    <th>@item.CourseId</th>
+                    <th>@item.CourseLessonId</th>
+                    <th>@item.InternId</th>
+                    <th>
+                        <a href="/Files/InternLessonTest/@item.TestFile" download>Download DOCX File</a>
+                    </th>
+                    <td>
+                        <a onclick="if(!confirm('Are you sure?')){return false;}"
+                       asp-controller="InternCourseTest" asp-action="remove" asp-route-id="@item.Id"
+                           class=" delete-item"><i class="fas fa-trash text text-danger"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

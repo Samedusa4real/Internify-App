@@ -602,3 +602,12 @@ C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\obj\Release\net6.0\win-x86\re
 C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\obj\Release\net6.0\win-x86\Forage.MVC.pdb
 C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\obj\Release\net6.0\win-x86\Forage.MVC.genruntimeconfig.cache
 C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\obj\Release\net6.0\win-x86\ref\Forage.MVC.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Release\net6.0\win-x86\EntityFramework.SqlServer.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Release\net6.0\win-x86\EntityFramework.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Release\net6.0\win-x86\LinqKit.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Release\net6.0\win-x86\LinqKit.Core.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Release\net6.0\win-x86\System.CodeDom.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Release\net6.0\win-x86\System.Data.SqlClient.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Release\net6.0\win-x86\sni.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Release\net6.0\win-x86\en-US\Forage.Service.resources.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.MVC\bin\Release\net6.0\win-x86\tr-TR\Forage.Service.resources.dll

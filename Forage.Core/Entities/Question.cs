@@ -9,7 +9,17 @@ namespace Forage.Core.Entities
 {
     public class Question:BaseEntitiy
     {
-        public string Title { get; set; }
-        public string Text { get; set; }
+        public List<QuestionLanguage> QuestionLanguages { get; set; }
+    }
+
+    public class QuestionLanguage
+    {
+        public int Id { get; set; }
+        public int? LanguageId { get; set; }
+        public int? QuestionId { get; set; }
+        public string? Title { get; set; }
+        public string? Text { get; set; }
+        public Question Question { get; set; }
+        public Language Language { get; set; }
     }
 }

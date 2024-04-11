@@ -81,7 +81,7 @@ namespace Forage.Service.Services.Implementations
 
         public async Task<ApiResponse> GetAsync(int id)
         {
-            About? About = await _repository.GetAsync(x => x.Id == id && !x.IsDeleted);
+            About? About = await _repository.GetAsync(x => x.Id == id && !x.IsDeleted, "AboutLanguages");
             if (About == null)
             {
                 return new ApiResponse

@@ -8,7 +8,12 @@ namespace Forage.Service.Dtos.Questions
 {
     public class QuestionPostDto
     {
-        public string Title { get; set; }
-        public string Text { get; set; }
+        public List<QuestionLanguageDto> QuestionLanguages { get; set; }
+    }
+    public class QuestionLanguageDto
+    {
+        public int? LanguageId { get; set; }
+        public string? Title { get; set; }
+        public string? Text { get; set; }
     }
 }

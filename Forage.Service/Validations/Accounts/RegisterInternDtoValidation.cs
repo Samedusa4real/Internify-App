@@ -56,8 +56,6 @@ namespace Forage.Service.Validations.Accounts
                         context.AddFailure("PhoneNumber", "PhoneNumber is required");
                     }
                 });
-
-            RuleFor(x => x.Experience).Null();
         }
     }
 }

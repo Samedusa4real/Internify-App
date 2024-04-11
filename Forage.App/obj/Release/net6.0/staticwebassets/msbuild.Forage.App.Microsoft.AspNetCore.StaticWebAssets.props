@@ -96,6 +96,150 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\Img\7065287_page-0001 1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\0c8a4fd1-42c0-4b9a-b95c-96a5f617a420WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/0c8a4fd1-42c0-4b9a-b95c-96a5f617a420WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\0c8a4fd1-42c0-4b9a-b95c-96a5f617a420WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\10517d5d-1a12-4507-b6ae-788943123adaGreen Abstract Quote Instagram Post.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/10517d5d-1a12-4507-b6ae-788943123adaGreen Abstract Quote Instagram Post.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\10517d5d-1a12-4507-b6ae-788943123adaGreen Abstract Quote Instagram Post.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\177f0f07-9a8b-4310-98e7-b10d606ea580Green Abstract Quote Instagram Post.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/177f0f07-9a8b-4310-98e7-b10d606ea580Green Abstract Quote Instagram Post.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\177f0f07-9a8b-4310-98e7-b10d606ea580Green Abstract Quote Instagram Post.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\3ff02602-363f-4815-baac-eb9fd292e872Green Abstract Quote Instagram Post.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/3ff02602-363f-4815-baac-eb9fd292e872Green Abstract Quote Instagram Post.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\3ff02602-363f-4815-baac-eb9fd292e872Green Abstract Quote Instagram Post.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\54b1e603-5694-4617-80b1-0643b65c88b0Green Abstract Quote Instagram Post.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/54b1e603-5694-4617-80b1-0643b65c88b0Green Abstract Quote Instagram Post.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\54b1e603-5694-4617-80b1-0643b65c88b0Green Abstract Quote Instagram Post.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\5df49bcf-89da-4eb6-aa1c-48a1c901e78aGreen Abstract Quote Instagram Post.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/5df49bcf-89da-4eb6-aa1c-48a1c901e78aGreen Abstract Quote Instagram Post.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\5df49bcf-89da-4eb6-aa1c-48a1c901e78aGreen Abstract Quote Instagram Post.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\7e81d3c3-c120-45f7-8a55-8694d3ba19dcGreen Abstract Quote Instagram Post.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/7e81d3c3-c120-45f7-8a55-8694d3ba19dcGreen Abstract Quote Instagram Post.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\7e81d3c3-c120-45f7-8a55-8694d3ba19dcGreen Abstract Quote Instagram Post.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\7ff41ac5-81fd-4841-8694-f83384f7e123Green Abstract Quote Instagram Post.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/7ff41ac5-81fd-4841-8694-f83384f7e123Green Abstract Quote Instagram Post.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\7ff41ac5-81fd-4841-8694-f83384f7e123Green Abstract Quote Instagram Post.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\8a022c63-86b0-4469-9e50-5b89c0bd2c27WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/8a022c63-86b0-4469-9e50-5b89c0bd2c27WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\8a022c63-86b0-4469-9e50-5b89c0bd2c27WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\8fc38bcd-7bb1-4cd4-9c16-a8be410e841bUPUCUZLUQ AKSESUAR (1).png))">
       <SourceType>Package</SourceType>
       <SourceId>Forage.App</SourceId>
@@ -111,6 +255,118 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\8fc38bcd-7bb1-4cd4-9c16-a8be410e841bUPUCUZLUQ AKSESUAR (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\96e9cd50-0e01-41f4-9142-8afa1a5413c8WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/96e9cd50-0e01-41f4-9142-8afa1a5413c8WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\96e9cd50-0e01-41f4-9142-8afa1a5413c8WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\9d4589b8-b0c9-4c99-a677-d3a014629819WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/9d4589b8-b0c9-4c99-a677-d3a014629819WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\9d4589b8-b0c9-4c99-a677-d3a014629819WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\affa87cf-9588-4871-a711-04542cb42d71Green Abstract Quote Instagram Post.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/affa87cf-9588-4871-a711-04542cb42d71Green Abstract Quote Instagram Post.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\affa87cf-9588-4871-a711-04542cb42d71Green Abstract Quote Instagram Post.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\b0228853-7944-489a-bc41-3e1e41c71c2bGreen Abstract Quote Instagram Post.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/b0228853-7944-489a-bc41-3e1e41c71c2bGreen Abstract Quote Instagram Post.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\b0228853-7944-489a-bc41-3e1e41c71c2bGreen Abstract Quote Instagram Post.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\b43c8be2-b668-494b-8a69-16a4cc1e6936Green Abstract Quote Instagram Post.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/b43c8be2-b668-494b-8a69-16a4cc1e6936Green Abstract Quote Instagram Post.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\b43c8be2-b668-494b-8a69-16a4cc1e6936Green Abstract Quote Instagram Post.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\bbf4ca50-305c-4cd6-8ce5-174d921823b6Green Abstract Quote Instagram Post.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/bbf4ca50-305c-4cd6-8ce5-174d921823b6Green Abstract Quote Instagram Post.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\bbf4ca50-305c-4cd6-8ce5-174d921823b6Green Abstract Quote Instagram Post.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\fe3a4dd3-7566-4d94-9b73-ebcc9a0c31c8Green Abstract Quote Instagram Post.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Images/About/fe3a4dd3-7566-4d94-9b73-ebcc9a0c31c8Green Abstract Quote Instagram Post.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\About\fe3a4dd3-7566-4d94-9b73-ebcc9a0c31c8Green Abstract Quote Instagram Post.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Companies\04528d43-6c14-441f-8019-3e5d189c66b3codeacademy.webp))">
       <SourceType>Package</SourceType>
@@ -927,6 +1183,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\CourseLessons\d7de74e7-8246-42d3-9159-46d6b9ee692fMadrigal - Seni Dert Etmeler (Official Audio).mp4))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\CourseLessons\efb4ac30-9301-4302-94e8-8eea5b50cadb20230922_131738.mp4))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.App</BasePath>
+      <RelativePath>Videos/CourseLessons/efb4ac30-9301-4302-94e8-8eea5b50cadb20230922_131738.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\CourseLessons\efb4ac30-9301-4302-94e8-8eea5b50cadb20230922_131738.mp4))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\Courses\0439c468-ec10-4e3a-9feb-693f15fb3bbaMadrigal - Seni Dert Etmeler (Official Audio).mp4))">
       <SourceType>Package</SourceType>

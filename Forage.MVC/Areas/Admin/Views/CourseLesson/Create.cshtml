@@ -3,24 +3,14 @@
 <div class="container">
 	<form method="post" enctype="multipart/form-data">
 	<div class="form-group">
-		    <label asp-for="Name" >Name:</label>
+		    <label asp-for="Name">Name:</label>
 			<input class="form-control" asp-for="Name" />
 			<span asp-validation-for="Name" class="text text-danger"></span>
 	</div>
 		<div class="form-group">
-			<label asp-for="CourseDuration">CourseDuration:</label>
-			<input class="form-control" asp-for="CourseDuration" />
-			<span asp-validation-for="CourseDuration" class="text text-danger"></span>
-		</div>
-		<div class="form-group">
 			<label asp-for="Description">Description:</label>
 			<textarea class="form-control" asp-for="Description"></textarea>
 			<span asp-validation-for="Description" class="text text-danger"></span>
-		</div>
-		<div class="form-group">
-			<label asp-for="LessonLine">Lesson Line:</label>
-			<textarea class="form-control" asp-for="LessonLine"></textarea>
-			<span asp-validation-for="LessonLine" class="text text-danger"></span>
 		</div>
 		<div class="form-group">
 			<label asp-for="CourseId">Course</label>

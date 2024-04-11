@@ -120,9 +120,7 @@ namespace Forage.Service.Services.Implementations
             }
             CourseLesson.UpdatedAt = DateTime.UtcNow.AddHours(4);
             CourseLesson.Name = dto.Name;
-            CourseLesson.CourseDuration = dto.CourseDuration;
             CourseLesson.Description = dto.Description;
-            CourseLesson.LessonLine = dto.LessonLine;
             CourseLesson.CourseId = dto.CourseId;
             CourseLesson.CourseLessonLevelId = dto.CourseLessonLevelId;
             await _repository.SaveAsync();

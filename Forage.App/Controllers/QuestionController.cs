@@ -28,7 +28,7 @@ namespace Forage.App.Controllers
             return StatusCode(result.StatusCode, result);
         }
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] QuestionPostDto dto)
+        public async Task<IActionResult> Create([FromForm] QuestionPostDto dto)
         {
             var result = await _service.CreateAsync(dto);
             return StatusCode(result.StatusCode, result);
@@ -41,7 +41,7 @@ namespace Forage.App.Controllers
             return StatusCode(result.StatusCode);
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] QuestionUpdateDto dto)
+        public async Task<IActionResult> Update(int id, [FromForm] QuestionUpdateDto dto)
         {
             var result = await _service.UpdateAsync(id, dto);
             return StatusCode(result.StatusCode, result);

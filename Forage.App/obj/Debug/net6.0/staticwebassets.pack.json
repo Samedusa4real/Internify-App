@@ -1,6 +1,22 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Files\\InternLessonTest\\0f64a22c-7a17-4cfe-a958-6939f7022280Samad Musayev (11).docx",
+      "PackagePath": "staticwebassets\\Files\\InternLessonTest\\0f64a22c-7a17-4cfe-a958-6939f7022280Samad Musayev (11).docx"
+    },
+    {
+      "Id": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Files\\InternLessonTest\\5a42f75e-123b-48fa-a2f9-6537ee149340Samad Musayev (11).docx",
+      "PackagePath": "staticwebassets\\Files\\InternLessonTest\\5a42f75e-123b-48fa-a2f9-6537ee149340Samad Musayev (11).docx"
+    },
+    {
+      "Id": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Files\\InternLessonTest\\c2d57204-c5c2-4ae8-addf-26e3a7bfa9b6Samad Musayev (11).docx",
+      "PackagePath": "staticwebassets\\Files\\InternLessonTest\\c2d57204-c5c2-4ae8-addf-26e3a7bfa9b6Samad Musayev (11).docx"
+    },
+    {
+      "Id": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Files\\InternLessonTest\\f3556d4b-c477-481f-a400-cac68cabb65aSamad Musayev (11).docx",
+      "PackagePath": "staticwebassets\\Files\\InternLessonTest\\f3556d4b-c477-481f-a400-cac68cabb65aSamad Musayev (11).docx"
+    },
+    {
       "Id": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\About\\0c8a4fd1-42c0-4b9a-b95c-96a5f617a420WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg",
       "PackagePath": "staticwebassets\\Images\\About\\0c8a4fd1-42c0-4b9a-b95c-96a5f617a420WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg"
     },
@@ -39,6 +55,14 @@
     {
       "Id": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\About\\8fc38bcd-7bb1-4cd4-9c16-a8be410e841bUPUCUZLUQ AKSESUAR (1).png",
       "PackagePath": "staticwebassets\\Images\\About\\8fc38bcd-7bb1-4cd4-9c16-a8be410e841bUPUCUZLUQ AKSESUAR (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\About\\96e9cd50-0e01-41f4-9142-8afa1a5413c8WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg",
+      "PackagePath": "staticwebassets\\Images\\About\\96e9cd50-0e01-41f4-9142-8afa1a5413c8WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\About\\9d4589b8-b0c9-4c99-a677-d3a014629819WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg",
+      "PackagePath": "staticwebassets\\Images\\About\\9d4589b8-b0c9-4c99-a677-d3a014629819WhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg"
     },
     {
       "Id": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Images\\About\\affa87cf-9588-4871-a711-04542cb42d71Green Abstract Quote Instagram Post.png",
@@ -263,6 +287,10 @@
     {
       "Id": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Videos\\CourseLessons\\d7de74e7-8246-42d3-9159-46d6b9ee692fMadrigal - Seni Dert Etmeler (Official Audio).mp4",
       "PackagePath": "staticwebassets\\Videos\\CourseLessons\\d7de74e7-8246-42d3-9159-46d6b9ee692fMadrigal - Seni Dert Etmeler (Official Audio).mp4"
+    },
+    {
+      "Id": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Videos\\CourseLessons\\efb4ac30-9301-4302-94e8-8eea5b50cadb20230922_131738.mp4",
+      "PackagePath": "staticwebassets\\Videos\\CourseLessons\\efb4ac30-9301-4302-94e8-8eea5b50cadb20230922_131738.mp4"
     },
     {
       "Id": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.App\\wwwroot\\Videos\\Courses\\0439c468-ec10-4e3a-9feb-693f15fb3bbaMadrigal - Seni Dert Etmeler (Official Audio).mp4",

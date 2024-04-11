@@ -81,4 +81,6 @@ C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\Forage.Service.pdb
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\Forage.Core.pdb
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\Forage.Data.pdb
+C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\en-US\Forage.Service.resources.dll
+C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\tr-TR\Forage.Service.resources.dll
 C:\Users\Samedusa\Desktop\Internify-App\Forage.App\obj\Release\net6.0\PubTmp\Out\Forage.App.deps.json

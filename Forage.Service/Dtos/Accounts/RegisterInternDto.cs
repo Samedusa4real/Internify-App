@@ -17,7 +17,7 @@ namespace Forage.Service.Dtos.Accounts
         public string Email { get; set; }
         public string Password { get; set; }
         public string BirthYear { get; set; }
-        public string Experience { get; set; }
+        public string? Experience { get; set; }
         public string FieldsOfLaw { get; set; }
         public IFormFile Image { get; set; }
         public string? role { get; set; }

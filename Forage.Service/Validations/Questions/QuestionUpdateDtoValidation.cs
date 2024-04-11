@@ -12,12 +12,12 @@ namespace Forage.Service.Validations.Questions
     {
         public QuestionUpdateDtoValidation()
         {
-            RuleFor(x => x.Title)
-            .NotEmpty()
-            .NotNull().WithMessage("Title can not be null");
-            RuleFor(x => x.Text)
-                  .NotEmpty()
-            .NotNull().WithMessage("Text can not be null");
+            //RuleFor(x => x.Title)
+            //.NotEmpty()
+            //.NotNull().WithMessage("Title can not be null");
+            //RuleFor(x => x.Text)
+            //      .NotEmpty()
+            //.NotNull().WithMessage("Text can not be null");
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Forage.Service.Dtos.Courses;
+using Forage.Service.Dtos.InternCourseTests;
 using Forage.Service.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -44,6 +45,12 @@ namespace Forage.App.Controllers
         public async Task<IActionResult> Update(int id, [FromForm] CourseUpdateDto dto)
         {
             var result = await _service.UpdateAsync(id, dto);
+            return StatusCode(result.StatusCode, result);
+        }
+        [HttpPost("internCourseTest")]
+        public async Task<IActionResult> CreateLessonTest([FromForm] InternCourseTestPostDto dto)
+        {
+            var result = await _service.CreateLessonTestAsync(dto);
             return StatusCode(result.StatusCode, result);
         }
     }

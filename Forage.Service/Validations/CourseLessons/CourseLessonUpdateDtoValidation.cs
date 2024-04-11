@@ -16,9 +16,6 @@ namespace Forage.Service.Validations.Courses
             RuleFor(x => x.Name)
                   .MinimumLength(3)
                   .MaximumLength(50);
-            RuleFor(x => x.CourseDuration)
-                  .MinimumLength(3)
-                  .MaximumLength(50);
             RuleFor(x => x.Description)
                   .MinimumLength(200)
                   .MaximumLength(500);
@@ -37,7 +34,6 @@ namespace Forage.Service.Validations.Courses
                           }
                       }
                   });
-            RuleFor(x => x.LessonLine);
             RuleFor(x => x.CourseId);
             RuleFor(x => x.CourseLessonLevelId);
         }

@@ -17,7 +17,7 @@ namespace Forage.App.Controllers
             _service = service;
         }
         [HttpPost]
-        public async Task<IActionResult> Create(ContactPostDto dto)
+        public async Task<IActionResult> Create([FromForm] ContactPostDto dto)
         {
             var result = await _service.CreateAsync(dto);
             return StatusCode(result.StatusCode, result);
