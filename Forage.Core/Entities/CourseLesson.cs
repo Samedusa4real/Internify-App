@@ -15,7 +15,5 @@ namespace Forage.Core.Entities
         public string VideoUrl { get; set; }
         public int CourseId { get; set; }
         public Course Course { get; set; }
-        public int CourseLessonLevelId { get; set; }
-        public CourseLessonLevel CourseLessonLevel { get; set; }
     }
 }

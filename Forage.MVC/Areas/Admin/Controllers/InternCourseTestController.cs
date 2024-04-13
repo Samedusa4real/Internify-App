@@ -20,5 +20,14 @@ namespace Forage.MVC.Areas.Admin.Controllers
             var result = await _service.GetAllTestAsync();
             return View(result.items);
         }
+        public async Task<IActionResult> Remove(int id)
+        {
+            var result = await _service.RemoveTestAsync(id);
+            if (result.StatusCode == 404)
+            {
+                return NotFound();
+            }
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

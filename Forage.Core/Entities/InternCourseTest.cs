@@ -18,5 +18,11 @@ namespace Forage.Core.Entities
         public CourseLesson CourseLesson { get; set;}
         public Intern Intern { get; set; }
         public Course Course { get; set; }
+        public string Status { get; set; }
+
+        public InternCourseTest()
+        {
+            Status = "Waiting";
+        }
     }
 }

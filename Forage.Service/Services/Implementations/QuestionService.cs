@@ -46,7 +46,7 @@ namespace Forage.Service.Services.Implementations
 
         public async Task<ApiResponse> GetAllAsync()
         {
-            IEnumerable<Question> Questions = await _repository.GetAllAsync(x => !x.IsDeleted);
+            IEnumerable<Question> Questions = await _repository.GetAllAsync(x => !x.IsDeleted, "QuestionLanguages");
             return new ApiResponse
             {
                 items = Questions,
@@ -56,7 +56,7 @@ namespace Forage.Service.Services.Implementations
 
         public async Task<ApiResponse> GetAsync(int id)
         {
-            Question? Question = await _repository.GetAsync(x => x.Id == id && !x.IsDeleted);
+            Question? Question = await _repository.GetAsync(x => x.Id == id && !x.IsDeleted, "QuestionLanguages");
             if (Question == null)
             {
                 return new ApiResponse

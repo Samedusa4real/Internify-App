@@ -17,12 +17,10 @@ namespace Forage.MVC.Areas.Admin.Controllers
     {
         private readonly ICourseLessonService _service;
         private readonly ICourseService _courseService;
-        private readonly ICourseLessonLevelService _levelService;
-        public CourseLessonController(ICourseLessonService service, ICourseService courseService, ICourseLessonLevelService levelService)
+        public CourseLessonController(ICourseLessonService service, ICourseService courseService)
         {
             _service = service;
             _courseService = courseService;
-            _levelService = levelService;
         }
 
         public async Task<IActionResult> Index()
@@ -36,9 +34,6 @@ namespace Forage.MVC.Areas.Admin.Controllers
             var result = await _courseService.GetAllAsync();
             ViewBag.Courses = result.items;
 
-            result = await _levelService.GetAllAsync();
-            ViewBag.Levels = result.items;
-
             return View();
         }
         [HttpPost]
@@ -47,9 +42,6 @@ namespace Forage.MVC.Areas.Admin.Controllers
         {
             var result = await _courseService.GetAllAsync();
             ViewBag.Courses = result.items;
-
-            result = await _levelService.GetAllAsync();
-            ViewBag.Levels = result.items;
 
             if (!ModelState.IsValid)
             {
@@ -69,10 +61,6 @@ namespace Forage.MVC.Areas.Admin.Controllers
             var result = await _courseService.GetAllAsync();
             ViewBag.Courses = result.items;
 
-            result = await _levelService.GetAllAsync();
-            ViewBag.Levels = result.items;
-
-
             result = await _service.GetAsync(id);
             if (result.StatusCode == 404)
             {
@@ -84,9 +72,6 @@ namespace Forage.MVC.Areas.Admin.Controllers
         {
             var result = await _courseService.GetAllAsync();
             ViewBag.Courses = result.items;
-
-            result = await _levelService.GetAllAsync();
-            ViewBag.Levels = result.items;
 
             if (!ModelState.IsValid)
             {

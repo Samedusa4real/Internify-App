@@ -2,7 +2,6 @@
 using Forage.Core.Entities;
 using Forage.Core.Repositories;
 using Forage.Service.Dtos.CourseLessonActivities;
-using Forage.Service.Dtos.CourseLessonLevels;
 using Forage.Service.Exceptions;
 using Forage.Service.Responses;
 using Forage.Service.Services.Interfaces;

@@ -73,8 +73,6 @@ namespace Forage.Service
             services.AddScoped<ICourseLessonService, CourseLessonService>();
             services.AddScoped<ICourseLessonActivityRepository, CourseLessonActivityRepository>();
             services.AddScoped<ICourseLessonActivityService, CourseLessonActivityService>();
-            services.AddScoped<ICourseLessonLevelRepository, CourseLessonLevelRepository>();
-            services.AddScoped<ICourseLessonLevelService, CourseLessonLevelService>();
             services.AddScoped<ICourseSkillRepository, CourseSkillRepository>();
             services.AddScoped<ICompanyIndustryFieldService, CompanyIndustryFieldService>();
             services.AddScoped<ICompanyIndustryFieldRepository, CompanyIndustryFieldRepository>();

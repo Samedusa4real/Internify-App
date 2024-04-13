@@ -18,5 +18,6 @@ namespace Forage.Service.Services.Interfaces
         public Task<ApiResponse> RemoveAsync(int id);
         public Task<ApiResponse> CreateLessonTestAsync(InternCourseTestPostDto dto);
         public Task<ApiResponse> GetAllTestAsync();
+        public Task<ApiResponse> RemoveTestAsync(int id);
     }
 }

@@ -122,7 +122,6 @@ namespace Forage.Service.Services.Implementations
             CourseLesson.Name = dto.Name;
             CourseLesson.Description = dto.Description;
             CourseLesson.CourseId = dto.CourseId;
-            CourseLesson.CourseLessonLevelId = dto.CourseLessonLevelId;
             await _repository.SaveAsync();
             return new ApiResponse
             {

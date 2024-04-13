@@ -53,5 +53,11 @@ namespace Forage.App.Controllers
             var result = await _service.CreateLessonTestAsync(dto);
             return StatusCode(result.StatusCode, result);
         }
+        [HttpGet("internCourseTest")]
+        public async Task<IActionResult> GetAllTest()
+        {
+            var result = await _service.GetAllTestAsync();
+            return StatusCode(result.StatusCode, result);
+        }
     }
 }

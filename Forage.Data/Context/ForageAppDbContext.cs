@@ -28,7 +28,6 @@ namespace Forage.Data.Context
         public DbSet<CourseSkill> CourseSkills { get; set; }
         public DbSet<Course> Courses { get; set; }
         public DbSet<CourseLesson> CourseLessons { get; set; }
-        public DbSet<CourseLessonLevel> CourseLessonLevels { get; set; }
         public DbSet<Intern> Interns { get; set; }
         public DbSet<CourseLessonActivity> CourseLessonActivities { get; set; }
         public DbSet<Subscribe> Subscribes { get; set; }
@@ -59,7 +58,6 @@ namespace Forage.Data.Context
             modelBuilder.ApplyConfiguration(new CourseConfiguration());
             modelBuilder.ApplyConfiguration(new SkillConfiguration());
             modelBuilder.ApplyConfiguration(new CourseLessonConfiguration());
-            modelBuilder.ApplyConfiguration(new CourseLessonLevelConfiguration());
             modelBuilder.ApplyConfiguration(new InternConfiguration());
             modelBuilder.ApplyConfiguration(new CourseLessonActivityConfiguration());
             modelBuilder.ApplyConfiguration(new SubscribeConfiguration());

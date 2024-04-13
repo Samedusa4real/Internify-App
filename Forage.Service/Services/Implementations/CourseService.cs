@@ -187,6 +187,14 @@ namespace Forage.Service.Services.Implementations
 
         public async Task<ApiResponse> CreateLessonTestAsync(InternCourseTestPostDto dto)
         {
+            bool testExists = await _internCourseTestRepository.isExsist(test =>
+                test.CourseId == dto.CourseId &&
+                test.CourseLessonId == dto.CourseLessonId &&
+                test.InternId == dto.InternId
+            );
+
+            string status = testExists ? "Rejected" : "Finished";
+
             InternCourseTest test = new InternCourseTest
             {
                 Message = dto.Message,
@@ -196,6 +204,7 @@ namespace Forage.Service.Services.Implementations
                 TestFile = dto.TestFile.CreateImage(_evn.WebRootPath, "Files/InternLessonTest"),
                 TestFileUrl = _http.HttpContext?.Request.Scheme + "://" + _http.HttpContext?.Request.Host
                 + $"Files/InternLessonTest/{dto.TestFile.CreateImage(_evn.WebRootPath, "Files/InternLessonTest")}",
+                Status = status,
             };
 
             await _internCourseTestRepository.AddAsync(test);
@@ -210,11 +219,31 @@ namespace Forage.Service.Services.Implementations
 
         public async Task<ApiResponse> GetAllTestAsync()
         {
-            IEnumerable<InternCourseTest> CourseTests = await _internCourseTestRepository.GetAllAsync(x => !x.IsDeleted);
+            IEnumerable<InternCourseTest> CourseTests = await _internCourseTestRepository.GetAllAsync(x => !x.IsDeleted, "Intern", "Course", "CourseLesson");
             return new ApiResponse
             {
                 items = CourseTests,
                 StatusCode = 200
+            };
+        }
+
+        public async Task<ApiResponse> RemoveTestAsync(int id)
+        {
+            InternCourseTest test = await _internCourseTestRepository.GetAsync(x => x.Id == id);
+            if (test is null)
+            {
+                return new ApiResponse
+                {
+                    StatusCode = 404,
+                    Description = "Not found"
+                };
+            }
+            test.IsDeleted = true;
+            await _repository.SaveAsync();
+            return new ApiResponse
+            {
+                StatusCode = 200,
+                items = test
             };
         }
     }
