@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xpCfDBQz5Bt4hg8ju1wHV2gbsK8RArEP8s2c54KZOhs=",
+  "Hash": "IVOtxNbVnnCQ6FeiMwuWc0UFbWoWaeIekyX/s81N2xc=",
   "Source": "Forage.MVC",
   "BasePath": "_content/Forage.MVC",
   "Mode": "Default",
@@ -1936,6 +1936,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Partners\\28e0846e-8299-466a-a19a-903e5ed182a8UPUCUZLUQ AKSESUAR (1).png"
+    },
+    {
+      "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Partners\\2eff0dae-5bba-4c05-b2f7-c26cf084b9bdWhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg",
+      "SourceId": "Forage.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\",
+      "BasePath": "_content/Forage.MVC",
+      "RelativePath": "Images/Partners/2eff0dae-5bba-4c05-b2f7-c26cf084b9bdWhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Partners\\2eff0dae-5bba-4c05-b2f7-c26cf084b9bdWhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg"
     },
     {
       "Identity": "C:\\Users\\Samedusa\\Desktop\\Internify-App\\Forage.MVC\\wwwroot\\Images\\Partners\\3c1876c8-000e-4134-8774-82a4438af9b9codeacademy.webp",

@@ -54,9 +54,9 @@ namespace Forage.App.Controllers
             return StatusCode(result.StatusCode, result);
         }
         [HttpGet("internCourseTest")]
-        public async Task<IActionResult> GetAllTest()
+        public async Task<IActionResult> GetAllTest([FromQuery] int? internId = null, [FromQuery] int? courseId = null)
         {
-            var result = await _service.GetAllTestAsync();
+            var result = await _service.GetAllTestAsync(internId, courseId);
             return StatusCode(result.StatusCode, result);
         }
     }

@@ -35,7 +35,6 @@ namespace Forage.Service.Validations.Courses
                       }
                   });
             RuleFor(x => x.CourseId);
-            RuleFor(x => x.CourseLessonLevelId);
         }
     }
 }

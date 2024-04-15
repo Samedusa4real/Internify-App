@@ -2,6 +2,7 @@
 using Forage.Core.Entities;
 using Forage.Core.Repositories;
 using Forage.Data.Context;
+using Forage.Data.Repositories;
 using Forage.Service.Dtos.CourseLessons;
 using Forage.Service.Dtos.Skills;
 using Forage.Service.Extensions;
@@ -53,12 +54,14 @@ namespace Forage.Service.Services.Implementations
             };
         }
 
-        public async Task<ApiResponse> GetAllAsync()
+        public async Task<ApiResponse> GetAllAsync(int? courseId = null)
         {
-            IEnumerable<CourseLesson> Companies = await _repository.GetAllAsync(x => !x.IsDeleted,"Course","CourseLessonLevel");
+            IEnumerable<CourseLesson> CourseLessons = await _repository
+                                                           .GetAllAsync(x => (!courseId.HasValue || x.CourseId == courseId) && !x.IsDeleted, "Course");
+
             return new ApiResponse
             {
-                items = Companies,
+                items = CourseLessons,
                 StatusCode = 200
             };
         }

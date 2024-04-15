@@ -42,10 +42,6 @@ namespace Forage.Service.Validations.CourseLessons
             RuleFor(x => x.CourseId)
               .NotEmpty()
               .NotNull();
-            RuleFor(x => x.CourseLessonLevelId)
-                .NotEmpty()
-                .NotNull();
-          
         }
     }
 }

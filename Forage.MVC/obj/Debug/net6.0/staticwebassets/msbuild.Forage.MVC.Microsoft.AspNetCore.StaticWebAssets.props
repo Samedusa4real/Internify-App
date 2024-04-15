@@ -1808,6 +1808,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Partners\28e0846e-8299-466a-a19a-903e5ed182a8UPUCUZLUQ AKSESUAR (1).png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Partners\2eff0dae-5bba-4c05-b2f7-c26cf084b9bdWhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Forage.MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Forage.MVC</BasePath>
+      <RelativePath>Images/Partners/2eff0dae-5bba-4c05-b2f7-c26cf084b9bdWhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Partners\2eff0dae-5bba-4c05-b2f7-c26cf084b9bdWhatsApp Şəkil 2024-03-13 saat 23.08.00_f0496755.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Partners\3c1876c8-000e-4134-8774-82a4438af9b9codeacademy.webp))">
       <SourceType>Package</SourceType>
       <SourceId>Forage.MVC</SourceId>

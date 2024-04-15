@@ -13,6 +13,5 @@ namespace Forage.Service.Dtos.CourseLessons
         public string Description { get; set; }
         public IFormFile lessonVideo { get; set; }
         public int CourseId { get; set; }
-        public int CourseLessonLevelId { get; set; }
     }
 }

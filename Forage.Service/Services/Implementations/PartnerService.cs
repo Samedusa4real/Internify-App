@@ -44,7 +44,7 @@ namespace Forage.Service.Services.Implementations
             Partner Partner = _mapper.Map<Partner>(dto);
 			Partner.Logo = dto.file.CreateImage(_evn.WebRootPath, "Images/Partners");
 			Partner.LogoUrl = _http.HttpContext?.Request.Scheme + "://" + _http.HttpContext?.Request.Host
-				+ $"Images/Partners/{Partner.Logo}";
+				+ $"/Images/Partners/{Partner.Logo}";
 			await _repository.AddAsync(Partner);
             await _repository.SaveAsync();
             return new ApiResponse
@@ -74,7 +74,14 @@ namespace Forage.Service.Services.Implementations
                     StatusCode = 404
                 };
             }
-			PartnerUpdateDto dto = _mapper.Map<PartnerUpdateDto>(Partner);
+
+            string logoUrl = !string.IsNullOrEmpty(Partner.Logo) ?
+                $"{_http.HttpContext.Request.Scheme}://{_http.HttpContext.Request.Host}/Images/Partners/{Partner.Logo}" :
+                string.Empty;
+
+            PartnerUpdateDto dto = _mapper.Map<PartnerUpdateDto>(Partner);
+            dto.LogoUrl = logoUrl;
+
 			return new ApiResponse
             {
                 StatusCode = 200,

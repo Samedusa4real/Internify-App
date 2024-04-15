@@ -124,7 +124,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("Forage");
-app.UseHttpsRedirection();                      
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 app.UseAuthentication();
 
 

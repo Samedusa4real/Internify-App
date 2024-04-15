@@ -85,7 +85,7 @@ namespace Forage.Service.Services.Implementations
                                                             (!courseCategoryId.HasValue || x.CourseCategoryId == courseCategoryId) &&
                                                             (!courseLevelId.HasValue || x.CourseLevelId == courseLevelId) &&
                                                             (courseName == null || x.Name.Contains(courseName)) &&
-                                                            (!skillIds.Any() || x.CourseSkills.Any(cs => skillIds.Contains(cs.SkillId))) &&
+                                                            ((skillIds == null || !skillIds.Any()) || x.CourseSkills.Any(cs => skillIds.Contains(cs.SkillId))) &&
                                                             !x.IsDeleted, "CourseLevel", "Company", "InternCourses.Intern", "CourseSkills.Skill", "CourseLessons");
 
             return new ApiResponse
@@ -217,9 +217,13 @@ namespace Forage.Service.Services.Implementations
             };
         }
 
-        public async Task<ApiResponse> GetAllTestAsync()
+        public async Task<ApiResponse> GetAllTestAsync(int? internId = null, int? courseId = null)
         {
-            IEnumerable<InternCourseTest> CourseTests = await _internCourseTestRepository.GetAllAsync(x => !x.IsDeleted, "Intern", "Course", "CourseLesson");
+            IEnumerable<InternCourseTest> CourseTests = await _internCourseTestRepository
+                                                            .GetAllAsync(x => (!internId.HasValue || x.InternId == internId.Value) && 
+                                                                            (!courseId.HasValue || x.CourseId == courseId.Value) &&
+                                                                            !x.IsDeleted, "Intern", "Course", "CourseLesson");
+
             return new ApiResponse
             {
                 items = CourseTests,

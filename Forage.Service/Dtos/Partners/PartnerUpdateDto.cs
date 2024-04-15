@@ -14,5 +14,6 @@ namespace Forage.Service.Dtos.Partners
         public string? ActualAddress { get; set; }
         public string? PhoneNumber { get; set; }
         public IFormFile? file { get; set; }
+        public string? LogoUrl { get; set; }
 	}
 }

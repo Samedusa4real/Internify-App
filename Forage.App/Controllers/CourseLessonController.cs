@@ -16,9 +16,9 @@ namespace Forage.App.Controllers
             _service = service;
         }
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] int? courseId = null)
         {
-            var result = await _service.GetAllAsync();
+            var result = await _service.GetAllAsync(courseId);
             return StatusCode(result.StatusCode, result);
         }
         [HttpGet("{id}")]
